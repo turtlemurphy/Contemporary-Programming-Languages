@@ -1,0 +1,1155 @@
+After marker: 1
+0 roll(s) of pennies + 0 pennies    = $0.0
+0 roll(s) of nickels + 3 nickels    = $0.15000000000000002
+0 roll(s) of dimes + 1 dimes         = $0.1
+0 roll(s) of quarters + 1 quarters   = $0.25
+Total------------------------------> = $0.5
+
+After marker: 2
+0 roll(s) of pennies + 0 pennies    = $0.0
+0 roll(s) of nickels + 7 nickels    = $0.35000000000000003
+0 roll(s) of dimes + 1 dimes         = $0.1
+0 roll(s) of quarters + 2 quarters   = $0.5
+Total------------------------------> = $0.9500000000000001
+
+After marker: 3
+0 roll(s) of pennies + 1 pennies    = $0.01
+0 roll(s) of nickels + 10 nickels    = $0.5
+0 roll(s) of dimes + 2 dimes         = $0.2
+0 roll(s) of quarters + 2 quarters   = $0.5
+Total------------------------------> = $1.21
+
+After marker: 4
+0 roll(s) of pennies + 2 pennies    = $0.02
+0 roll(s) of nickels + 12 nickels    = $0.6000000000000001
+0 roll(s) of dimes + 3 dimes         = $0.30000000000000004
+0 roll(s) of quarters + 2 quarters   = $0.5
+Total------------------------------> = $1.4200000000000002
+
+After marker: 5
+0 roll(s) of pennies + 2 pennies    = $0.02
+0 roll(s) of nickels + 19 nickels    = $0.9500000000000001
+0 roll(s) of dimes + 7 dimes         = $0.7000000000000001
+0 roll(s) of quarters + 2 quarters   = $0.5
+Total------------------------------> = $2.17
+
+After marker: 6
+0 roll(s) of pennies + 2 pennies    = $0.02
+0 roll(s) of nickels + 22 nickels    = $1.1
+0 roll(s) of dimes + 9 dimes         = $0.9
+0 roll(s) of quarters + 2 quarters   = $0.5
+Total------------------------------> = $2.52
+
+After marker: 7
+0 roll(s) of pennies + 2 pennies    = $0.02
+0 roll(s) of nickels + 25 nickels    = $1.25
+0 roll(s) of dimes + 9 dimes         = $0.9
+0 roll(s) of quarters + 2 quarters   = $0.5
+Total------------------------------> = $2.67
+
+After marker: 8
+0 roll(s) of pennies + 3 pennies    = $0.03
+0 roll(s) of nickels + 25 nickels    = $1.25
+0 roll(s) of dimes + 9 dimes         = $0.9
+0 roll(s) of quarters + 2 quarters   = $0.5
+Total------------------------------> = $2.68
+
+After marker: 9
+0 roll(s) of pennies + 4 pennies    = $0.04
+0 roll(s) of nickels + 26 nickels    = $1.3
+0 roll(s) of dimes + 9 dimes         = $0.9
+0 roll(s) of quarters + 2 quarters   = $0.5
+Total------------------------------> = $2.74
+
+After marker: 10
+0 roll(s) of pennies + 5 pennies    = $0.05
+0 roll(s) of nickels + 38 nickels    = $1.9000000000000001
+0 roll(s) of dimes + 11 dimes         = $1.1
+0 roll(s) of quarters + 3 quarters   = $0.75
+Total------------------------------> = $3.8000000000000003
+
+After marker: 11
+0 roll(s) of pennies + 5 pennies    = $0.05
+1 roll(s) of nickels + 0 nickels    = $2.0
+0 roll(s) of dimes + 12 dimes         = $1.2000000000000002
+0 roll(s) of quarters + 3 quarters   = $0.75
+Total------------------------------> = $4.0
+
+After marker: 12
+0 roll(s) of pennies + 7 pennies    = $0.07
+1 roll(s) of nickels + 9 nickels    = $2.45
+0 roll(s) of dimes + 14 dimes         = $1.4000000000000001
+0 roll(s) of quarters + 4 quarters   = $1.0
+Total------------------------------> = $4.92
+
+After marker: 13
+0 roll(s) of pennies + 7 pennies    = $0.07
+1 roll(s) of nickels + 9 nickels    = $2.45
+0 roll(s) of dimes + 15 dimes         = $1.5
+0 roll(s) of quarters + 4 quarters   = $1.0
+Total------------------------------> = $5.02
+
+After marker: 14
+0 roll(s) of pennies + 7 pennies    = $0.07
+1 roll(s) of nickels + 9 nickels    = $2.45
+0 roll(s) of dimes + 16 dimes         = $1.6
+0 roll(s) of quarters + 4 quarters   = $1.0
+Total------------------------------> = $5.12
+
+After marker: 15
+0 roll(s) of pennies + 8 pennies    = $0.08
+1 roll(s) of nickels + 10 nickels    = $2.5
+0 roll(s) of dimes + 17 dimes         = $1.7000000000000002
+0 roll(s) of quarters + 4 quarters   = $1.0
+Total------------------------------> = $5.28
+
+After marker: 16
+0 roll(s) of pennies + 8 pennies    = $0.08
+1 roll(s) of nickels + 13 nickels    = $2.65
+0 roll(s) of dimes + 21 dimes         = $2.1
+0 roll(s) of quarters + 5 quarters   = $1.25
+Total------------------------------> = $6.08
+
+After marker: 17
+0 roll(s) of pennies + 11 pennies    = $0.11
+1 roll(s) of nickels + 24 nickels    = $3.2
+0 roll(s) of dimes + 23 dimes         = $2.3000000000000003
+0 roll(s) of quarters + 6 quarters   = $1.5
+Total------------------------------> = $7.11
+
+After marker: 18
+0 roll(s) of pennies + 12 pennies    = $0.12
+1 roll(s) of nickels + 26 nickels    = $3.3
+0 roll(s) of dimes + 23 dimes         = $2.3000000000000003
+0 roll(s) of quarters + 6 quarters   = $1.5
+Total------------------------------> = $7.220000000000001
+
+After marker: 19
+0 roll(s) of pennies + 12 pennies    = $0.12
+1 roll(s) of nickels + 32 nickels    = $3.6
+0 roll(s) of dimes + 23 dimes         = $2.3000000000000003
+0 roll(s) of quarters + 6 quarters   = $1.5
+Total------------------------------> = $7.5200000000000005
+
+After marker: 20
+0 roll(s) of pennies + 12 pennies    = $0.12
+1 roll(s) of nickels + 33 nickels    = $3.6500000000000004
+0 roll(s) of dimes + 23 dimes         = $2.3000000000000003
+0 roll(s) of quarters + 6 quarters   = $1.5
+Total------------------------------> = $7.57
+
+After marker: 21
+0 roll(s) of pennies + 13 pennies    = $0.13
+1 roll(s) of nickels + 37 nickels    = $3.85
+0 roll(s) of dimes + 24 dimes         = $2.4000000000000004
+0 roll(s) of quarters + 7 quarters   = $1.75
+Total------------------------------> = $8.13
+
+After marker: 22
+0 roll(s) of pennies + 13 pennies    = $0.13
+1 roll(s) of nickels + 37 nickels    = $3.85
+0 roll(s) of dimes + 25 dimes         = $2.5
+0 roll(s) of quarters + 7 quarters   = $1.75
+Total------------------------------> = $8.23
+
+After marker: 23
+0 roll(s) of pennies + 14 pennies    = $0.14
+1 roll(s) of nickels + 38 nickels    = $3.9000000000000004
+0 roll(s) of dimes + 27 dimes         = $2.7
+0 roll(s) of quarters + 7 quarters   = $1.75
+Total------------------------------> = $8.49
+
+After marker: 24
+0 roll(s) of pennies + 14 pennies    = $0.14
+1 roll(s) of nickels + 39 nickels    = $3.95
+0 roll(s) of dimes + 29 dimes         = $2.9000000000000004
+0 roll(s) of quarters + 7 quarters   = $1.75
+Total------------------------------> = $8.74
+
+After marker: 25
+0 roll(s) of pennies + 14 pennies    = $0.14
+2 roll(s) of nickels + 2 nickels    = $4.1
+0 roll(s) of dimes + 31 dimes         = $3.1
+0 roll(s) of quarters + 9 quarters   = $2.25
+Total------------------------------> = $9.59
+
+After marker: 26
+0 roll(s) of pennies + 14 pennies    = $0.14
+2 roll(s) of nickels + 11 nickels    = $4.55
+0 roll(s) of dimes + 34 dimes         = $3.4000000000000004
+0 roll(s) of quarters + 9 quarters   = $2.25
+Total------------------------------> = $10.34
+
+After marker: 27
+0 roll(s) of pennies + 14 pennies    = $0.14
+2 roll(s) of nickels + 12 nickels    = $4.6
+0 roll(s) of dimes + 34 dimes         = $3.4000000000000004
+0 roll(s) of quarters + 9 quarters   = $2.25
+Total------------------------------> = $10.39
+
+After marker: 28
+0 roll(s) of pennies + 16 pennies    = $0.16
+2 roll(s) of nickels + 13 nickels    = $4.65
+0 roll(s) of dimes + 35 dimes         = $3.5
+0 roll(s) of quarters + 9 quarters   = $2.25
+Total------------------------------> = $10.56
+
+After marker: 29
+0 roll(s) of pennies + 16 pennies    = $0.16
+2 roll(s) of nickels + 16 nickels    = $4.8
+0 roll(s) of dimes + 37 dimes         = $3.7
+0 roll(s) of quarters + 9 quarters   = $2.25
+Total------------------------------> = $10.91
+
+After marker: 30
+0 roll(s) of pennies + 16 pennies    = $0.16
+2 roll(s) of nickels + 26 nickels    = $5.3
+0 roll(s) of dimes + 40 dimes         = $4.0
+0 roll(s) of quarters + 9 quarters   = $2.25
+Total------------------------------> = $11.71
+
+After marker: 31
+0 roll(s) of pennies + 16 pennies    = $0.16
+2 roll(s) of nickels + 30 nickels    = $5.5
+0 roll(s) of dimes + 42 dimes         = $4.2
+0 roll(s) of quarters + 11 quarters   = $2.75
+Total------------------------------> = $12.61
+
+After marker: 32
+0 roll(s) of pennies + 16 pennies    = $0.16
+2 roll(s) of nickels + 31 nickels    = $5.55
+0 roll(s) of dimes + 42 dimes         = $4.2
+0 roll(s) of quarters + 12 quarters   = $3.0
+Total------------------------------> = $12.91
+
+After marker: 33
+0 roll(s) of pennies + 16 pennies    = $0.16
+2 roll(s) of nickels + 33 nickels    = $5.65
+0 roll(s) of dimes + 43 dimes         = $4.3
+0 roll(s) of quarters + 13 quarters   = $3.25
+Total------------------------------> = $13.36
+
+After marker: 34
+0 roll(s) of pennies + 17 pennies    = $0.17
+3 roll(s) of nickels + 4 nickels    = $6.2
+0 roll(s) of dimes + 44 dimes         = $4.4
+0 roll(s) of quarters + 15 quarters   = $3.75
+Total------------------------------> = $14.52
+
+After marker: 35
+0 roll(s) of pennies + 17 pennies    = $0.17
+3 roll(s) of nickels + 6 nickels    = $6.3
+0 roll(s) of dimes + 45 dimes         = $4.5
+0 roll(s) of quarters + 15 quarters   = $3.75
+Total------------------------------> = $14.719999999999999
+
+After marker: 36
+0 roll(s) of pennies + 17 pennies    = $0.17
+3 roll(s) of nickels + 8 nickels    = $6.4
+0 roll(s) of dimes + 45 dimes         = $4.5
+0 roll(s) of quarters + 15 quarters   = $3.75
+Total------------------------------> = $14.82
+
+After marker: 37
+0 roll(s) of pennies + 17 pennies    = $0.17
+3 roll(s) of nickels + 13 nickels    = $6.65
+0 roll(s) of dimes + 46 dimes         = $4.6000000000000005
+0 roll(s) of quarters + 15 quarters   = $3.75
+Total------------------------------> = $15.170000000000002
+
+After marker: 38
+0 roll(s) of pennies + 18 pennies    = $0.18
+3 roll(s) of nickels + 22 nickels    = $7.1
+0 roll(s) of dimes + 47 dimes         = $4.7
+0 roll(s) of quarters + 16 quarters   = $4.0
+Total------------------------------> = $15.98
+
+After marker: 39
+0 roll(s) of pennies + 21 pennies    = $0.21
+3 roll(s) of nickels + 28 nickels    = $7.4
+1 roll(s) of dimes + 0 dimes         = $5.0
+0 roll(s) of quarters + 17 quarters   = $4.25
+Total------------------------------> = $16.86
+
+After marker: 40
+0 roll(s) of pennies + 21 pennies    = $0.21
+3 roll(s) of nickels + 35 nickels    = $7.75
+1 roll(s) of dimes + 0 dimes         = $5.0
+0 roll(s) of quarters + 21 quarters   = $5.25
+Total------------------------------> = $18.21
+
+After marker: 41
+0 roll(s) of pennies + 21 pennies    = $0.21
+3 roll(s) of nickels + 37 nickels    = $7.85
+1 roll(s) of dimes + 2 dimes         = $5.2
+0 roll(s) of quarters + 21 quarters   = $5.25
+Total------------------------------> = $18.51
+
+After marker: 42
+0 roll(s) of pennies + 21 pennies    = $0.21
+4 roll(s) of nickels + 0 nickels    = $8.0
+1 roll(s) of dimes + 3 dimes         = $5.3
+0 roll(s) of quarters + 21 quarters   = $5.25
+Total------------------------------> = $18.76
+
+After marker: 43
+0 roll(s) of pennies + 22 pennies    = $0.22
+4 roll(s) of nickels + 3 nickels    = $8.15
+1 roll(s) of dimes + 3 dimes         = $5.3
+0 roll(s) of quarters + 22 quarters   = $5.5
+Total------------------------------> = $19.17
+
+After marker: 44
+0 roll(s) of pennies + 23 pennies    = $0.23
+4 roll(s) of nickels + 3 nickels    = $8.15
+1 roll(s) of dimes + 3 dimes         = $5.3
+0 roll(s) of quarters + 22 quarters   = $5.5
+Total------------------------------> = $19.18
+
+After marker: 45
+0 roll(s) of pennies + 23 pennies    = $0.23
+4 roll(s) of nickels + 6 nickels    = $8.3
+1 roll(s) of dimes + 4 dimes         = $5.4
+0 roll(s) of quarters + 22 quarters   = $5.5
+Total------------------------------> = $19.43
+
+After marker: 46
+0 roll(s) of pennies + 23 pennies    = $0.23
+4 roll(s) of nickels + 9 nickels    = $8.45
+1 roll(s) of dimes + 4 dimes         = $5.4
+0 roll(s) of quarters + 22 quarters   = $5.5
+Total------------------------------> = $19.58
+
+After marker: 47
+0 roll(s) of pennies + 23 pennies    = $0.23
+4 roll(s) of nickels + 24 nickels    = $9.2
+1 roll(s) of dimes + 7 dimes         = $5.7
+0 roll(s) of quarters + 23 quarters   = $5.75
+Total------------------------------> = $20.88
+
+After marker: 48
+0 roll(s) of pennies + 23 pennies    = $0.23
+4 roll(s) of nickels + 29 nickels    = $9.45
+1 roll(s) of dimes + 7 dimes         = $5.7
+0 roll(s) of quarters + 24 quarters   = $6.0
+Total------------------------------> = $21.38
+
+After marker: 49
+0 roll(s) of pennies + 23 pennies    = $0.23
+4 roll(s) of nickels + 33 nickels    = $9.65
+1 roll(s) of dimes + 7 dimes         = $5.7
+0 roll(s) of quarters + 24 quarters   = $6.0
+Total------------------------------> = $21.580000000000002
+
+After marker: 50
+0 roll(s) of pennies + 23 pennies    = $0.23
+4 roll(s) of nickels + 38 nickels    = $9.9
+1 roll(s) of dimes + 11 dimes         = $6.1
+0 roll(s) of quarters + 25 quarters   = $6.25
+Total------------------------------> = $22.48
+
+After marker: 51
+0 roll(s) of pennies + 24 pennies    = $0.24
+4 roll(s) of nickels + 38 nickels    = $9.9
+1 roll(s) of dimes + 11 dimes         = $6.1
+0 roll(s) of quarters + 26 quarters   = $6.5
+Total------------------------------> = $22.740000000000002
+
+After marker: 52
+0 roll(s) of pennies + 24 pennies    = $0.24
+5 roll(s) of nickels + 1 nickels    = $10.05
+1 roll(s) of dimes + 14 dimes         = $6.4
+0 roll(s) of quarters + 28 quarters   = $7.0
+Total------------------------------> = $23.69
+
+After marker: 53
+0 roll(s) of pennies + 24 pennies    = $0.24
+5 roll(s) of nickels + 2 nickels    = $10.1
+1 roll(s) of dimes + 14 dimes         = $6.4
+0 roll(s) of quarters + 28 quarters   = $7.0
+Total------------------------------> = $23.740000000000002
+
+After marker: 54
+0 roll(s) of pennies + 25 pennies    = $0.25
+5 roll(s) of nickels + 6 nickels    = $10.3
+1 roll(s) of dimes + 16 dimes         = $6.6
+0 roll(s) of quarters + 29 quarters   = $7.25
+Total------------------------------> = $24.4
+
+After marker: 55
+0 roll(s) of pennies + 25 pennies    = $0.25
+5 roll(s) of nickels + 10 nickels    = $10.5
+1 roll(s) of dimes + 17 dimes         = $6.7
+0 roll(s) of quarters + 29 quarters   = $7.25
+Total------------------------------> = $24.7
+
+After marker: 56
+0 roll(s) of pennies + 26 pennies    = $0.26
+5 roll(s) of nickels + 15 nickels    = $10.75
+1 roll(s) of dimes + 19 dimes         = $6.9
+0 roll(s) of quarters + 31 quarters   = $7.75
+Total------------------------------> = $25.66
+
+After marker: 57
+0 roll(s) of pennies + 26 pennies    = $0.26
+5 roll(s) of nickels + 15 nickels    = $10.75
+1 roll(s) of dimes + 19 dimes         = $6.9
+0 roll(s) of quarters + 32 quarters   = $8.0
+Total------------------------------> = $25.91
+
+After marker: 58
+0 roll(s) of pennies + 28 pennies    = $0.28
+5 roll(s) of nickels + 22 nickels    = $11.1
+1 roll(s) of dimes + 20 dimes         = $7.0
+0 roll(s) of quarters + 33 quarters   = $8.25
+Total------------------------------> = $26.63
+
+After marker: 59
+0 roll(s) of pennies + 28 pennies    = $0.28
+5 roll(s) of nickels + 25 nickels    = $11.25
+1 roll(s) of dimes + 20 dimes         = $7.0
+0 roll(s) of quarters + 33 quarters   = $8.25
+Total------------------------------> = $26.78
+
+After marker: 60
+0 roll(s) of pennies + 28 pennies    = $0.28
+5 roll(s) of nickels + 31 nickels    = $11.55
+1 roll(s) of dimes + 21 dimes         = $7.1
+0 roll(s) of quarters + 33 quarters   = $8.25
+Total------------------------------> = $27.18
+
+After marker: 61
+0 roll(s) of pennies + 28 pennies    = $0.28
+5 roll(s) of nickels + 34 nickels    = $11.7
+1 roll(s) of dimes + 23 dimes         = $7.300000000000001
+0 roll(s) of quarters + 34 quarters   = $8.5
+Total------------------------------> = $27.78
+
+After marker: 62
+0 roll(s) of pennies + 28 pennies    = $0.28
+5 roll(s) of nickels + 35 nickels    = $11.75
+1 roll(s) of dimes + 23 dimes         = $7.300000000000001
+0 roll(s) of quarters + 34 quarters   = $8.5
+Total------------------------------> = $27.83
+
+After marker: 63
+0 roll(s) of pennies + 28 pennies    = $0.28
+5 roll(s) of nickels + 36 nickels    = $11.8
+1 roll(s) of dimes + 23 dimes         = $7.300000000000001
+0 roll(s) of quarters + 34 quarters   = $8.5
+Total------------------------------> = $27.880000000000003
+
+After marker: 64
+0 roll(s) of pennies + 28 pennies    = $0.28
+5 roll(s) of nickels + 37 nickels    = $11.85
+1 roll(s) of dimes + 23 dimes         = $7.300000000000001
+0 roll(s) of quarters + 34 quarters   = $8.5
+Total------------------------------> = $27.93
+
+After marker: 65
+0 roll(s) of pennies + 29 pennies    = $0.29
+5 roll(s) of nickels + 38 nickels    = $11.9
+1 roll(s) of dimes + 23 dimes         = $7.300000000000001
+0 roll(s) of quarters + 34 quarters   = $8.5
+Total------------------------------> = $27.990000000000002
+
+After marker: 66
+0 roll(s) of pennies + 30 pennies    = $0.3
+6 roll(s) of nickels + 1 nickels    = $12.05
+1 roll(s) of dimes + 23 dimes         = $7.300000000000001
+0 roll(s) of quarters + 34 quarters   = $8.5
+Total------------------------------> = $28.150000000000002
+
+After marker: 67
+0 roll(s) of pennies + 30 pennies    = $0.3
+6 roll(s) of nickels + 1 nickels    = $12.05
+1 roll(s) of dimes + 24 dimes         = $7.4
+0 roll(s) of quarters + 34 quarters   = $8.5
+Total------------------------------> = $28.25
+
+After marker: 68
+0 roll(s) of pennies + 30 pennies    = $0.3
+6 roll(s) of nickels + 8 nickels    = $12.4
+1 roll(s) of dimes + 24 dimes         = $7.4
+0 roll(s) of quarters + 34 quarters   = $8.5
+Total------------------------------> = $28.6
+
+After marker: 69
+0 roll(s) of pennies + 31 pennies    = $0.31
+6 roll(s) of nickels + 9 nickels    = $12.45
+1 roll(s) of dimes + 26 dimes         = $7.6
+0 roll(s) of quarters + 34 quarters   = $8.5
+Total------------------------------> = $28.86
+
+After marker: 70
+0 roll(s) of pennies + 32 pennies    = $0.32
+6 roll(s) of nickels + 12 nickels    = $12.6
+1 roll(s) of dimes + 26 dimes         = $7.6
+0 roll(s) of quarters + 37 quarters   = $9.25
+Total------------------------------> = $29.77
+
+After marker: 71
+0 roll(s) of pennies + 32 pennies    = $0.32
+6 roll(s) of nickels + 15 nickels    = $12.75
+1 roll(s) of dimes + 27 dimes         = $7.7
+0 roll(s) of quarters + 38 quarters   = $9.5
+Total------------------------------> = $30.27
+
+After marker: 72
+0 roll(s) of pennies + 33 pennies    = $0.33
+6 roll(s) of nickels + 16 nickels    = $12.8
+1 roll(s) of dimes + 27 dimes         = $7.7
+0 roll(s) of quarters + 38 quarters   = $9.5
+Total------------------------------> = $30.330000000000002
+
+After marker: 73
+0 roll(s) of pennies + 33 pennies    = $0.33
+6 roll(s) of nickels + 24 nickels    = $13.2
+1 roll(s) of dimes + 29 dimes         = $7.9
+0 roll(s) of quarters + 40 quarters   = $10.0
+Total------------------------------> = $31.43
+
+After marker: 74
+0 roll(s) of pennies + 33 pennies    = $0.33
+6 roll(s) of nickels + 26 nickels    = $13.3
+1 roll(s) of dimes + 31 dimes         = $8.1
+0 roll(s) of quarters + 40 quarters   = $10.0
+Total------------------------------> = $31.73
+
+After marker: 75
+0 roll(s) of pennies + 33 pennies    = $0.33
+6 roll(s) of nickels + 30 nickels    = $13.5
+1 roll(s) of dimes + 32 dimes         = $8.2
+0 roll(s) of quarters + 40 quarters   = $10.0
+Total------------------------------> = $32.03
+
+After marker: 76
+0 roll(s) of pennies + 33 pennies    = $0.33
+6 roll(s) of nickels + 33 nickels    = $13.65
+1 roll(s) of dimes + 33 dimes         = $8.3
+0 roll(s) of quarters + 40 quarters   = $10.0
+Total------------------------------> = $32.28
+
+After marker: 77
+0 roll(s) of pennies + 33 pennies    = $0.33
+6 roll(s) of nickels + 34 nickels    = $13.7
+1 roll(s) of dimes + 33 dimes         = $8.3
+0 roll(s) of quarters + 40 quarters   = $10.0
+Total------------------------------> = $32.33
+
+After marker: 78
+0 roll(s) of pennies + 33 pennies    = $0.33
+6 roll(s) of nickels + 39 nickels    = $13.95
+1 roll(s) of dimes + 33 dimes         = $8.3
+0 roll(s) of quarters + 40 quarters   = $10.0
+Total------------------------------> = $32.58
+
+After marker: 79
+0 roll(s) of pennies + 33 pennies    = $0.33
+7 roll(s) of nickels + 2 nickels    = $14.1
+1 roll(s) of dimes + 33 dimes         = $8.3
+0 roll(s) of quarters + 40 quarters   = $10.0
+Total------------------------------> = $32.730000000000004
+
+After marker: 80
+0 roll(s) of pennies + 35 pennies    = $0.35000000000000003
+7 roll(s) of nickels + 33 nickels    = $15.65
+1 roll(s) of dimes + 38 dimes         = $8.8
+0 roll(s) of quarters + 42 quarters   = $10.5
+Total------------------------------> = $35.3
+
+After marker: 81
+0 roll(s) of pennies + 35 pennies    = $0.35000000000000003
+7 roll(s) of nickels + 35 nickels    = $15.75
+1 roll(s) of dimes + 39 dimes         = $8.9
+0 roll(s) of quarters + 42 quarters   = $10.5
+Total------------------------------> = $35.5
+
+After marker: 82
+0 roll(s) of pennies + 35 pennies    = $0.35000000000000003
+7 roll(s) of nickels + 36 nickels    = $15.8
+1 roll(s) of dimes + 40 dimes         = $9.0
+0 roll(s) of quarters + 43 quarters   = $10.75
+Total------------------------------> = $35.900000000000006
+
+After marker: 83
+0 roll(s) of pennies + 37 pennies    = $0.37
+8 roll(s) of nickels + 0 nickels    = $16.0
+1 roll(s) of dimes + 41 dimes         = $9.100000000000001
+0 roll(s) of quarters + 43 quarters   = $10.75
+Total------------------------------> = $36.22
+
+After marker: 84
+0 roll(s) of pennies + 38 pennies    = $0.38
+8 roll(s) of nickels + 6 nickels    = $16.3
+1 roll(s) of dimes + 42 dimes         = $9.2
+0 roll(s) of quarters + 43 quarters   = $10.75
+Total------------------------------> = $36.629999999999995
+
+After marker: 85
+0 roll(s) of pennies + 38 pennies    = $0.38
+8 roll(s) of nickels + 7 nickels    = $16.35
+1 roll(s) of dimes + 42 dimes         = $9.2
+0 roll(s) of quarters + 44 quarters   = $11.0
+Total------------------------------> = $36.93
+
+After marker: 86
+0 roll(s) of pennies + 38 pennies    = $0.38
+8 roll(s) of nickels + 22 nickels    = $17.1
+1 roll(s) of dimes + 49 dimes         = $9.9
+0 roll(s) of quarters + 48 quarters   = $12.0
+Total------------------------------> = $39.38
+
+After marker: 87
+0 roll(s) of pennies + 38 pennies    = $0.38
+8 roll(s) of nickels + 23 nickels    = $17.15
+2 roll(s) of dimes + 0 dimes         = $10.0
+0 roll(s) of quarters + 49 quarters   = $12.25
+Total------------------------------> = $39.78
+
+After marker: 88
+0 roll(s) of pennies + 38 pennies    = $0.38
+8 roll(s) of nickels + 27 nickels    = $17.35
+2 roll(s) of dimes + 0 dimes         = $10.0
+0 roll(s) of quarters + 49 quarters   = $12.25
+Total------------------------------> = $39.980000000000004
+
+After marker: 89
+0 roll(s) of pennies + 39 pennies    = $0.39
+8 roll(s) of nickels + 34 nickels    = $17.7
+2 roll(s) of dimes + 1 dimes         = $10.1
+0 roll(s) of quarters + 49 quarters   = $12.25
+Total------------------------------> = $40.44
+
+After marker: 90
+0 roll(s) of pennies + 40 pennies    = $0.4
+8 roll(s) of nickels + 35 nickels    = $17.75
+2 roll(s) of dimes + 1 dimes         = $10.1
+0 roll(s) of quarters + 49 quarters   = $12.25
+Total------------------------------> = $40.5
+
+After marker: 91
+0 roll(s) of pennies + 40 pennies    = $0.4
+8 roll(s) of nickels + 35 nickels    = $17.75
+2 roll(s) of dimes + 2 dimes         = $10.2
+0 roll(s) of quarters + 49 quarters   = $12.25
+Total------------------------------> = $40.599999999999994
+
+After marker: 92
+0 roll(s) of pennies + 40 pennies    = $0.4
+8 roll(s) of nickels + 36 nickels    = $17.8
+2 roll(s) of dimes + 2 dimes         = $10.2
+0 roll(s) of quarters + 49 quarters   = $12.25
+Total------------------------------> = $40.65
+
+After marker: 93
+0 roll(s) of pennies + 40 pennies    = $0.4
+9 roll(s) of nickels + 0 nickels    = $18.0
+2 roll(s) of dimes + 3 dimes         = $10.3
+1 roll(s) of quarters + 0 quarters   = $10.0
+Total------------------------------> = $38.7
+
+After marker: 94
+0 roll(s) of pennies + 40 pennies    = $0.4
+9 roll(s) of nickels + 9 nickels    = $18.45
+2 roll(s) of dimes + 4 dimes         = $10.4
+1 roll(s) of quarters + 1 quarters   = $10.25
+Total------------------------------> = $39.5
+
+After marker: 95
+0 roll(s) of pennies + 42 pennies    = $0.42
+9 roll(s) of nickels + 11 nickels    = $18.55
+2 roll(s) of dimes + 8 dimes         = $10.8
+1 roll(s) of quarters + 1 quarters   = $10.25
+Total------------------------------> = $40.02
+
+After marker: 96
+0 roll(s) of pennies + 42 pennies    = $0.42
+9 roll(s) of nickels + 18 nickels    = $18.9
+2 roll(s) of dimes + 9 dimes         = $10.9
+1 roll(s) of quarters + 1 quarters   = $10.25
+Total------------------------------> = $40.47
+
+After marker: 97
+0 roll(s) of pennies + 43 pennies    = $0.43
+9 roll(s) of nickels + 23 nickels    = $19.15
+2 roll(s) of dimes + 11 dimes         = $11.1
+1 roll(s) of quarters + 1 quarters   = $10.25
+Total------------------------------> = $40.93
+
+After marker: 98
+0 roll(s) of pennies + 43 pennies    = $0.43
+9 roll(s) of nickels + 24 nickels    = $19.2
+2 roll(s) of dimes + 11 dimes         = $11.1
+1 roll(s) of quarters + 1 quarters   = $10.25
+Total------------------------------> = $40.98
+
+After marker: 99
+0 roll(s) of pennies + 43 pennies    = $0.43
+9 roll(s) of nickels + 26 nickels    = $19.3
+2 roll(s) of dimes + 11 dimes         = $11.1
+1 roll(s) of quarters + 2 quarters   = $10.5
+Total------------------------------> = $41.33
+
+After marker: 100
+0 roll(s) of pennies + 43 pennies    = $0.43
+9 roll(s) of nickels + 27 nickels    = $19.35
+2 roll(s) of dimes + 13 dimes         = $11.3
+1 roll(s) of quarters + 2 quarters   = $10.5
+Total------------------------------> = $41.58
+
+After marker: 101
+0 roll(s) of pennies + 44 pennies    = $0.44
+9 roll(s) of nickels + 29 nickels    = $19.45
+2 roll(s) of dimes + 13 dimes         = $11.3
+1 roll(s) of quarters + 2 quarters   = $10.5
+Total------------------------------> = $41.69
+
+After marker: 102
+0 roll(s) of pennies + 44 pennies    = $0.44
+9 roll(s) of nickels + 30 nickels    = $19.5
+2 roll(s) of dimes + 13 dimes         = $11.3
+1 roll(s) of quarters + 2 quarters   = $10.5
+Total------------------------------> = $41.74
+
+After marker: 103
+0 roll(s) of pennies + 44 pennies    = $0.44
+9 roll(s) of nickels + 33 nickels    = $19.65
+2 roll(s) of dimes + 14 dimes         = $11.4
+1 roll(s) of quarters + 3 quarters   = $10.75
+Total------------------------------> = $42.24
+
+After marker: 104
+0 roll(s) of pennies + 45 pennies    = $0.45
+10 roll(s) of nickels + 3 nickels    = $20.15
+2 roll(s) of dimes + 20 dimes         = $12.0
+1 roll(s) of quarters + 6 quarters   = $11.5
+Total------------------------------> = $44.099999999999994
+
+After marker: 105
+0 roll(s) of pennies + 45 pennies    = $0.45
+10 roll(s) of nickels + 14 nickels    = $20.7
+2 roll(s) of dimes + 23 dimes         = $12.3
+1 roll(s) of quarters + 6 quarters   = $11.5
+Total------------------------------> = $44.95
+
+After marker: 106
+0 roll(s) of pennies + 46 pennies    = $0.46
+10 roll(s) of nickels + 21 nickels    = $21.05
+2 roll(s) of dimes + 30 dimes         = $13.0
+1 roll(s) of quarters + 9 quarters   = $12.25
+Total------------------------------> = $46.760000000000005
+
+After marker: 107
+0 roll(s) of pennies + 46 pennies    = $0.46
+10 roll(s) of nickels + 25 nickels    = $21.25
+2 roll(s) of dimes + 30 dimes         = $13.0
+1 roll(s) of quarters + 10 quarters   = $12.5
+Total------------------------------> = $47.21
+
+After marker: 108
+0 roll(s) of pennies + 46 pennies    = $0.46
+10 roll(s) of nickels + 25 nickels    = $21.25
+2 roll(s) of dimes + 31 dimes         = $13.1
+1 roll(s) of quarters + 10 quarters   = $12.5
+Total------------------------------> = $47.31
+
+After marker: 109
+0 roll(s) of pennies + 47 pennies    = $0.47000000000000003
+10 roll(s) of nickels + 38 nickels    = $21.9
+2 roll(s) of dimes + 33 dimes         = $13.3
+1 roll(s) of quarters + 15 quarters   = $13.75
+Total------------------------------> = $49.42
+
+After marker: 110
+0 roll(s) of pennies + 47 pennies    = $0.47000000000000003
+10 roll(s) of nickels + 38 nickels    = $21.9
+2 roll(s) of dimes + 35 dimes         = $13.5
+1 roll(s) of quarters + 15 quarters   = $13.75
+Total------------------------------> = $49.62
+
+After marker: 111
+0 roll(s) of pennies + 48 pennies    = $0.48
+10 roll(s) of nickels + 38 nickels    = $21.9
+2 roll(s) of dimes + 36 dimes         = $13.6
+1 roll(s) of quarters + 15 quarters   = $13.75
+Total------------------------------> = $49.73
+
+After marker: 112
+0 roll(s) of pennies + 48 pennies    = $0.48
+11 roll(s) of nickels + 2 nickels    = $22.1
+2 roll(s) of dimes + 38 dimes         = $13.8
+1 roll(s) of quarters + 16 quarters   = $14.0
+Total------------------------------> = $50.38
+
+After marker: 113
+0 roll(s) of pennies + 48 pennies    = $0.48
+11 roll(s) of nickels + 5 nickels    = $22.25
+2 roll(s) of dimes + 39 dimes         = $13.9
+1 roll(s) of quarters + 16 quarters   = $14.0
+Total------------------------------> = $50.63
+
+After marker: 114
+0 roll(s) of pennies + 49 pennies    = $0.49
+11 roll(s) of nickels + 8 nickels    = $22.4
+2 roll(s) of dimes + 40 dimes         = $14.0
+1 roll(s) of quarters + 16 quarters   = $14.0
+Total------------------------------> = $50.89
+
+After marker: 115
+0 roll(s) of pennies + 49 pennies    = $0.49
+11 roll(s) of nickels + 10 nickels    = $22.5
+2 roll(s) of dimes + 40 dimes         = $14.0
+1 roll(s) of quarters + 16 quarters   = $14.0
+Total------------------------------> = $50.989999999999995
+
+After marker: 116
+0 roll(s) of pennies + 49 pennies    = $0.49
+11 roll(s) of nickels + 11 nickels    = $22.55
+2 roll(s) of dimes + 40 dimes         = $14.0
+1 roll(s) of quarters + 17 quarters   = $14.25
+Total------------------------------> = $51.29
+
+After marker: 117
+0 roll(s) of pennies + 49 pennies    = $0.49
+11 roll(s) of nickels + 12 nickels    = $22.6
+2 roll(s) of dimes + 41 dimes         = $14.100000000000001
+1 roll(s) of quarters + 17 quarters   = $14.25
+Total------------------------------> = $51.44
+
+After marker: 118
+0 roll(s) of pennies + 49 pennies    = $0.49
+11 roll(s) of nickels + 13 nickels    = $22.65
+2 roll(s) of dimes + 43 dimes         = $14.3
+1 roll(s) of quarters + 17 quarters   = $14.25
+Total------------------------------> = $51.69
+
+After marker: 119
+0 roll(s) of pennies + 49 pennies    = $0.49
+11 roll(s) of nickels + 14 nickels    = $22.7
+2 roll(s) of dimes + 43 dimes         = $14.3
+1 roll(s) of quarters + 18 quarters   = $14.5
+Total------------------------------> = $51.989999999999995
+
+After marker: 120
+0 roll(s) of pennies + 49 pennies    = $0.49
+11 roll(s) of nickels + 15 nickels    = $22.75
+2 roll(s) of dimes + 43 dimes         = $14.3
+1 roll(s) of quarters + 19 quarters   = $14.75
+Total------------------------------> = $52.29
+
+After marker: 121
+0 roll(s) of pennies + 49 pennies    = $0.49
+11 roll(s) of nickels + 16 nickels    = $22.8
+2 roll(s) of dimes + 45 dimes         = $14.5
+1 roll(s) of quarters + 20 quarters   = $15.0
+Total------------------------------> = $52.79
+
+After marker: 122
+1 roll(s) of pennies + 0 pennies    = $0.5
+11 roll(s) of nickels + 19 nickels    = $22.95
+2 roll(s) of dimes + 45 dimes         = $14.5
+1 roll(s) of quarters + 20 quarters   = $15.0
+Total------------------------------> = $52.95
+
+After marker: 123
+1 roll(s) of pennies + 0 pennies    = $0.5
+11 roll(s) of nickels + 23 nickels    = $23.15
+2 roll(s) of dimes + 45 dimes         = $14.5
+1 roll(s) of quarters + 20 quarters   = $15.0
+Total------------------------------> = $53.15
+
+After marker: 124
+1 roll(s) of pennies + 0 pennies    = $0.5
+11 roll(s) of nickels + 31 nickels    = $23.55
+2 roll(s) of dimes + 49 dimes         = $14.9
+1 roll(s) of quarters + 24 quarters   = $16.0
+Total------------------------------> = $54.95
+
+After marker: 125
+1 roll(s) of pennies + 0 pennies    = $0.5
+11 roll(s) of nickels + 36 nickels    = $23.8
+3 roll(s) of dimes + 1 dimes         = $15.1
+1 roll(s) of quarters + 24 quarters   = $16.0
+Total------------------------------> = $55.4
+
+After marker: 126
+1 roll(s) of pennies + 1 pennies    = $0.51
+12 roll(s) of nickels + 17 nickels    = $24.85
+3 roll(s) of dimes + 7 dimes         = $15.7
+1 roll(s) of quarters + 25 quarters   = $16.25
+Total------------------------------> = $57.31
+
+After marker: 127
+1 roll(s) of pennies + 1 pennies    = $0.51
+12 roll(s) of nickels + 19 nickels    = $24.95
+3 roll(s) of dimes + 7 dimes         = $15.7
+1 roll(s) of quarters + 25 quarters   = $16.25
+Total------------------------------> = $57.41
+
+After marker: 128
+1 roll(s) of pennies + 1 pennies    = $0.51
+12 roll(s) of nickels + 20 nickels    = $25.0
+3 roll(s) of dimes + 7 dimes         = $15.7
+1 roll(s) of quarters + 25 quarters   = $16.25
+Total------------------------------> = $57.46
+
+After marker: 129
+1 roll(s) of pennies + 1 pennies    = $0.51
+12 roll(s) of nickels + 23 nickels    = $25.15
+3 roll(s) of dimes + 8 dimes         = $15.8
+1 roll(s) of quarters + 26 quarters   = $16.5
+Total------------------------------> = $57.96
+
+After marker: 130
+1 roll(s) of pennies + 1 pennies    = $0.51
+12 roll(s) of nickels + 24 nickels    = $25.2
+3 roll(s) of dimes + 8 dimes         = $15.8
+1 roll(s) of quarters + 26 quarters   = $16.5
+Total------------------------------> = $58.010000000000005
+
+After marker: 131
+1 roll(s) of pennies + 2 pennies    = $0.52
+12 roll(s) of nickels + 30 nickels    = $25.5
+3 roll(s) of dimes + 8 dimes         = $15.8
+1 roll(s) of quarters + 26 quarters   = $16.5
+Total------------------------------> = $58.32
+
+After marker: 132
+1 roll(s) of pennies + 6 pennies    = $0.56
+13 roll(s) of nickels + 3 nickels    = $26.15
+3 roll(s) of dimes + 14 dimes         = $16.4
+1 roll(s) of quarters + 27 quarters   = $16.75
+Total------------------------------> = $59.86
+
+After marker: 133
+1 roll(s) of pennies + 8 pennies    = $0.58
+13 roll(s) of nickels + 17 nickels    = $26.85
+3 roll(s) of dimes + 21 dimes         = $17.1
+1 roll(s) of quarters + 29 quarters   = $17.25
+Total------------------------------> = $61.78
+
+After marker: 134
+1 roll(s) of pennies + 8 pennies    = $0.58
+13 roll(s) of nickels + 18 nickels    = $26.9
+3 roll(s) of dimes + 24 dimes         = $17.4
+1 roll(s) of quarters + 29 quarters   = $17.25
+Total------------------------------> = $62.129999999999995
+
+After marker: 135
+1 roll(s) of pennies + 8 pennies    = $0.58
+13 roll(s) of nickels + 18 nickels    = $26.9
+3 roll(s) of dimes + 25 dimes         = $17.5
+1 roll(s) of quarters + 30 quarters   = $17.5
+Total------------------------------> = $62.48
+
+After marker: 136
+1 roll(s) of pennies + 8 pennies    = $0.58
+13 roll(s) of nickels + 22 nickels    = $27.1
+3 roll(s) of dimes + 27 dimes         = $17.7
+1 roll(s) of quarters + 31 quarters   = $17.75
+Total------------------------------> = $63.129999999999995
+
+After marker: 137
+1 roll(s) of pennies + 8 pennies    = $0.58
+13 roll(s) of nickels + 23 nickels    = $27.15
+3 roll(s) of dimes + 27 dimes         = $17.7
+1 roll(s) of quarters + 31 quarters   = $17.75
+Total------------------------------> = $63.17999999999999
+
+After marker: 138
+1 roll(s) of pennies + 8 pennies    = $0.58
+13 roll(s) of nickels + 26 nickels    = $27.3
+3 roll(s) of dimes + 27 dimes         = $17.7
+1 roll(s) of quarters + 31 quarters   = $17.75
+Total------------------------------> = $63.33
+
+After marker: 139
+1 roll(s) of pennies + 9 pennies    = $0.59
+13 roll(s) of nickels + 28 nickels    = $27.4
+3 roll(s) of dimes + 28 dimes         = $17.8
+1 roll(s) of quarters + 31 quarters   = $17.75
+Total------------------------------> = $63.54
+
+After marker: 140
+1 roll(s) of pennies + 9 pennies    = $0.59
+13 roll(s) of nickels + 30 nickels    = $27.5
+3 roll(s) of dimes + 31 dimes         = $18.1
+1 roll(s) of quarters + 32 quarters   = $18.0
+Total------------------------------> = $64.19
+
+After marker: 141
+1 roll(s) of pennies + 9 pennies    = $0.59
+13 roll(s) of nickels + 32 nickels    = $27.6
+3 roll(s) of dimes + 33 dimes         = $18.3
+1 roll(s) of quarters + 32 quarters   = $18.0
+Total------------------------------> = $64.49000000000001
+
+After marker: 142
+1 roll(s) of pennies + 9 pennies    = $0.59
+14 roll(s) of nickels + 1 nickels    = $28.05
+3 roll(s) of dimes + 37 dimes         = $18.7
+1 roll(s) of quarters + 32 quarters   = $18.0
+Total------------------------------> = $65.34
+
+After marker: 143
+1 roll(s) of pennies + 9 pennies    = $0.59
+14 roll(s) of nickels + 4 nickels    = $28.2
+3 roll(s) of dimes + 38 dimes         = $18.8
+1 roll(s) of quarters + 32 quarters   = $18.0
+Total------------------------------> = $65.59
+
+After marker: 144
+1 roll(s) of pennies + 9 pennies    = $0.59
+14 roll(s) of nickels + 7 nickels    = $28.35
+3 roll(s) of dimes + 38 dimes         = $18.8
+1 roll(s) of quarters + 33 quarters   = $18.25
+Total------------------------------> = $65.99000000000001
+
+After marker: 145
+1 roll(s) of pennies + 9 pennies    = $0.59
+14 roll(s) of nickels + 9 nickels    = $28.45
+3 roll(s) of dimes + 38 dimes         = $18.8
+1 roll(s) of quarters + 33 quarters   = $18.25
+Total------------------------------> = $66.09
+
+After marker: 146
+1 roll(s) of pennies + 9 pennies    = $0.59
+14 roll(s) of nickels + 10 nickels    = $28.5
+3 roll(s) of dimes + 38 dimes         = $18.8
+1 roll(s) of quarters + 33 quarters   = $18.25
+Total------------------------------> = $66.14
+
+After marker: 147
+1 roll(s) of pennies + 9 pennies    = $0.59
+14 roll(s) of nickels + 13 nickels    = $28.65
+3 roll(s) of dimes + 39 dimes         = $18.9
+1 roll(s) of quarters + 35 quarters   = $18.75
+Total------------------------------> = $66.89
+
+After marker: 148
+1 roll(s) of pennies + 9 pennies    = $0.59
+14 roll(s) of nickels + 15 nickels    = $28.75
+3 roll(s) of dimes + 39 dimes         = $18.9
+1 roll(s) of quarters + 35 quarters   = $18.75
+Total------------------------------> = $66.99
+
+After marker: 149
+1 roll(s) of pennies + 11 pennies    = $0.61
+14 roll(s) of nickels + 29 nickels    = $29.45
+3 roll(s) of dimes + 41 dimes         = $19.1
+1 roll(s) of quarters + 37 quarters   = $19.25
+Total------------------------------> = $68.41
+
+After marker: 150
+1 roll(s) of pennies + 12 pennies    = $0.62
+14 roll(s) of nickels + 33 nickels    = $29.65
+3 roll(s) of dimes + 41 dimes         = $19.1
+1 roll(s) of quarters + 37 quarters   = $19.25
+Total------------------------------> = $68.62
+
+After marker: 151
+1 roll(s) of pennies + 12 pennies    = $0.62
+14 roll(s) of nickels + 35 nickels    = $29.75
+3 roll(s) of dimes + 42 dimes         = $19.2
+1 roll(s) of quarters + 38 quarters   = $19.5
+Total------------------------------> = $69.07
+
+After marker: 152
+1 roll(s) of pennies + 12 pennies    = $0.62
+14 roll(s) of nickels + 36 nickels    = $29.8
+3 roll(s) of dimes + 42 dimes         = $19.2
+1 roll(s) of quarters + 39 quarters   = $19.75
+Total------------------------------> = $69.37
+
+After marker: 153
+1 roll(s) of pennies + 14 pennies    = $0.64
+15 roll(s) of nickels + 0 nickels    = $30.0
+3 roll(s) of dimes + 45 dimes         = $19.5
+1 roll(s) of quarters + 41 quarters   = $20.25
+Total------------------------------> = $70.39
+
+After marker: 154
+1 roll(s) of pennies + 14 pennies    = $0.64
+15 roll(s) of nickels + 0 nickels    = $30.0
+3 roll(s) of dimes + 45 dimes         = $19.5
+1 roll(s) of quarters + 42 quarters   = $20.5
+Total------------------------------> = $70.64
+
+After marker: 155
+1 roll(s) of pennies + 14 pennies    = $0.64
+15 roll(s) of nickels + 3 nickels    = $30.15
+3 roll(s) of dimes + 47 dimes         = $19.7
+1 roll(s) of quarters + 42 quarters   = $20.5
+Total------------------------------> = $70.99
+
+After marker: 156
+1 roll(s) of pennies + 15 pennies    = $0.65
+15 roll(s) of nickels + 5 nickels    = $30.25
+3 roll(s) of dimes + 47 dimes         = $19.7
+1 roll(s) of quarters + 43 quarters   = $20.75
+Total------------------------------> = $71.35
+
+After marker: 157
+1 roll(s) of pennies + 17 pennies    = $0.67
+15 roll(s) of nickels + 11 nickels    = $30.55
+3 roll(s) of dimes + 48 dimes         = $19.8
+1 roll(s) of quarters + 46 quarters   = $21.5
+Total------------------------------> = $72.52000000000001
+
+After marker: 158
+1 roll(s) of pennies + 17 pennies    = $0.67
+15 roll(s) of nickels + 11 nickels    = $30.55
+3 roll(s) of dimes + 49 dimes         = $19.9
+1 roll(s) of quarters + 46 quarters   = $21.5
+Total------------------------------> = $72.62
+
+After marker: 159
+1 roll(s) of pennies + 17 pennies    = $0.67
+15 roll(s) of nickels + 14 nickels    = $30.7
+4 roll(s) of dimes + 0 dimes         = $20.0
+1 roll(s) of quarters + 46 quarters   = $21.5
+Total------------------------------> = $72.87
+
+After marker: 160
+1 roll(s) of pennies + 19 pennies    = $0.69
+15 roll(s) of nickels + 20 nickels    = $31.0
+4 roll(s) of dimes + 2 dimes         = $20.2
+1 roll(s) of quarters + 47 quarters   = $21.75
+Total------------------------------> = $73.64
+
+After marker: 161
+1 roll(s) of pennies + 19 pennies    = $0.69
+15 roll(s) of nickels + 22 nickels    = $31.1
+4 roll(s) of dimes + 3 dimes         = $20.3
+1 roll(s) of quarters + 47 quarters   = $21.75
+Total------------------------------> = $73.84
+
+After marker: 162
+1 roll(s) of pennies + 19 pennies    = $0.69
+15 roll(s) of nickels + 23 nickels    = $31.15
+4 roll(s) of dimes + 3 dimes         = $20.3
+1 roll(s) of quarters + 48 quarters   = $22.0
+Total------------------------------> = $74.14
+
+After marker: 163
+1 roll(s) of pennies + 21 pennies    = $0.71
+15 roll(s) of nickels + 28 nickels    = $31.4
+4 roll(s) of dimes + 4 dimes         = $20.4
+1 roll(s) of quarters + 48 quarters   = $22.0
+Total------------------------------> = $74.50999999999999
+
+After marker: 164
+1 roll(s) of pennies + 21 pennies    = $0.71
+15 roll(s) of nickels + 35 nickels    = $31.75
+4 roll(s) of dimes + 7 dimes         = $20.7
+2 roll(s) of quarters + 0 quarters   = $20.0
+Total------------------------------> = $73.16
+
+After marker: 165
+1 roll(s) of pennies + 21 pennies    = $0.71
+15 roll(s) of nickels + 37 nickels    = $31.85
+4 roll(s) of dimes + 8 dimes         = $20.8
+2 roll(s) of quarters + 0 quarters   = $20.0
+Total------------------------------> = $73.36
+
