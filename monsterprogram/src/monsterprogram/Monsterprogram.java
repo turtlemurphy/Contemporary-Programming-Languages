@@ -45,11 +45,8 @@ Problem:
     -moves the actor on the screen
 
 
-class Actor implements IActor
+public class Actor implements IActor
 An Actor is an entity with an image and that can act. 
-The specification for Actor is contained in the GridDocumentation folder.
-All other specifications for classes can likewise be found in that 
-\\GridDocumentation\info\gridworld\actor folder.
 
 public class Rock extends Actor
 A Rock is an actor that does nothing. 
@@ -123,7 +120,6 @@ import info.gridworld.actor.being;
 import info.gridworld.actor.Human;
 import info.gridworld.actor.Vampire;
 import info.gridworld.actor.Zombie;
-
 import java.awt.Color;
 
 public class Monsterprogram 
@@ -138,7 +134,7 @@ public class Monsterprogram
         world.add(new being(Color.ORANGE));
         world.add(new Human(Color.gray));
         world.add(new Vampire(Color.gray));
-        world.add(new Zombie(Color.gray));
+        world.add(new Zombie(Color.RED));
         
         world.show();
     }
