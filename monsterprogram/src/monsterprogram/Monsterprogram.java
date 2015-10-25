@@ -101,6 +101,7 @@ import info.gridworld.actor.Human;
 import info.gridworld.actor.Monster;
 import info.gridworld.actor.Vampire;
 import info.gridworld.actor.Zombie;
+import info.gridworld.grid.Location;
 import java.awt.Color;
 
 public class Monsterprogram 
@@ -108,11 +109,13 @@ public class Monsterprogram
     public static void main(String[] args) 
     {
         ActorWorld world = new ActorWorld();
+                
+        Human Taylor = new Human();
         
-        world.add(new Rock(Color.LIGHT_GRAY));
-        world.add(new Food(Color.BLACK));
-        world.add(new being(Color.DARK_GRAY));
-        world.add(new Human(Color.WHITE));
+        world.add(new Location(5, 5), new Rock(Color.LIGHT_GRAY));
+        world.add(new Location(4, 5), new Food(Color.BLACK));
+        world.add(new Location(2, 2), new being(Color.DARK_GRAY));
+        world.add(Taylor);
         world.add(new Monster(Color.BLACK));
         world.add(new Vampire(Color.WHITE));
         world.add(new Zombie(Color.MAGENTA));
