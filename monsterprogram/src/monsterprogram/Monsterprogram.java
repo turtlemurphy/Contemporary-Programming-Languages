@@ -6,34 +6,14 @@
 ////////////////////////////////////////////////////
 /*
 Purpose:
-----To create a library (dll) of actors; 
 ----To design and implement an interface; 
 ----To instantiate objects of classes in an inheritance hierarchy and 
-        polymorphically output each objectâ€™s attributes; 
+        polymorphically output each object's attributes; 
 ----To use a variety of GUI components, including a 2-D grid of picture boxes; 
 ----To use Random method; 
 ----To use TRUE 2-D arrays and array lists;
 
 Problem:
-----Create an interface called IActor. 
-
-----Write an inheritance hierarchy for class 
-    Actor
-    -Rock
-    -Food
-    -Being 
-    --Human, 
-    -Monster
-    --Vampire
-    --Zombie. 
-
-----Use Actor as the base class of the hierarchy. The private data of Actor 
-        should be 
-    -an image reference
-    -direction
-    -location
-    -name of the actor. 
-
 ----Write a program that: 
     -prompts the user for one of these actors: Rock, Human, 
         Zombie, or Vampire
@@ -54,7 +34,7 @@ It is commonly used to block other actors from moving.
 
 public class Being extends Actor
 A Being is an actor that moves and turns and 
-defends itself. (It can a “health” meter.)
+defends itself. (It can have a “health” meter.)
 
 public class Human extends Being
 A Human is an actor that moves and turns and defends itself. 
@@ -77,7 +57,7 @@ If the Zombie doesn't move, it randomly turns left or right.
 If there is a neighboring Human, the zombie chases the Human and either 
 1) the zombie gets killed 
 2) the Human gets killed or 
-3) the Human becomes (or is “replaced” by) a Zombie.
+3) the Human becomes a Zombie.
 
 public class Vampire extends Moster
 A Vampire looks at a more expansive set of neighbors when it “eats” and moves. 
@@ -118,6 +98,7 @@ import info.gridworld.actor.Rock;
 import info.gridworld.actor.Food;
 import info.gridworld.actor.being;
 import info.gridworld.actor.Human;
+import info.gridworld.actor.Monster;
 import info.gridworld.actor.Vampire;
 import info.gridworld.actor.Zombie;
 import java.awt.Color;
@@ -128,13 +109,13 @@ public class Monsterprogram
     {
         ActorWorld world = new ActorWorld();
         
-        world.add(new Actor());
-        world.add(new Rock(Color.gray));
-        world.add(new Food(Color.ORANGE));
-        world.add(new being(Color.ORANGE));
-        world.add(new Human(Color.gray));
-        world.add(new Vampire(Color.gray));
-        world.add(new Zombie(Color.RED));
+        world.add(new Rock(Color.LIGHT_GRAY));
+        world.add(new Food(Color.BLACK));
+        world.add(new being(Color.DARK_GRAY));
+        world.add(new Human(Color.WHITE));
+        world.add(new Monster(Color.BLACK));
+        world.add(new Vampire(Color.WHITE));
+        world.add(new Zombie(Color.MAGENTA));
         
         world.show();
     }
