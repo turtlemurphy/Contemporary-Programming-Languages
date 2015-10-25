@@ -5,7 +5,7 @@ import info.gridworld.grid.Location;
 import java.awt.Color;
 
 //An Actor is an entity with a color and direction that can act.
-public class Actor
+public class Actor implements IActor
 {
     private Grid<Actor> grid;
     private Location location;
