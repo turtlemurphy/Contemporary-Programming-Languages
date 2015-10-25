@@ -3,7 +3,7 @@ package info.gridworld.actor;
 import java.awt.Color;
 
 //A Human
-public class Human extends Actor
+public class Human extends being
 {
     private static final Color DEFAULT_COLOR = Color.BLACK;
 

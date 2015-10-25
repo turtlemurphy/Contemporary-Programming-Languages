@@ -19,8 +19,15 @@ Purpose:
 Problem:
 ----Create an interface called IActor. 
 
-----Write an inheritance hierarchy for class Actor, Rock, Food, Being, Human, 
-    and Monster, Vampire, Zombie. 
+----Write an inheritance hierarchy for class 
+    Actor
+    -Rock
+    -Food
+    -Being 
+    --Human, 
+    -Monster
+    --Vampire
+    --Zombie. 
 
 ----Use Actor as the base class of the hierarchy. The private data of Actor 
     should be an image reference, direction, location, and name of the actor. 
