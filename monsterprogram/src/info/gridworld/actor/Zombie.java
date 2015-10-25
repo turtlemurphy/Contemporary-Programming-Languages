@@ -2,22 +2,22 @@ package info.gridworld.actor;
 
 import java.awt.Color;
 
-//A Rock is an actor that does nothing. It is commonly used to block other actors from moving.
-public class Rock extends Actor
+//A Zombie
+public class Zombie extends Monster
 {
     private static final Color DEFAULT_COLOR = Color.BLACK;
 
     //Constructs a black rock.
-    public Rock()
+    public Zombie()
     {
         setColor(DEFAULT_COLOR);
     }
 
-    //Constructs a rock of a given color.
-    //@param rockColor the color of this rock
-    public Rock(Color rockColor)
+    //Constructs a Zombie of a given color.
+    //@param zombieColor the color of this food
+    public Zombie(Color zombieColor)
     {
-        setColor(rockColor);
+        setColor(zombieColor);
     }
 
     //Overrides the act method in the Actor class to do nothing.
