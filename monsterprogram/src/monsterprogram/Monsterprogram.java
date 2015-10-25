@@ -45,6 +45,53 @@ Problem:
     -moves the actor on the screen
 
 
+class Actor implements IActor
+An Actor is an entity with an image and that can act. 
+The specification for Actor is contained in the GridDocumentation folder.
+All other specifications for classes can likewise be found in that 
+\\GridDocumentation\info\gridworld\actor folder.
+
+public class Rock extends Actor
+A Rock is an actor that does nothing. 
+It is commonly used to block other actors from moving.
+
+public class Being extends Actor
+A Being is an actor that moves and turns and 
+defends itself. (It can a “health” meter.)
+
+public class Human extends Being
+A Human is an actor that moves and turns and defends itself. 
+Comes in from an entrance point in a Grid and goes out one of the 
+known exit points. 
+A Human tries to look ahead and hide behind rocks, so they can’t be seen. 
+They can kill a monster, or be killed by a monster (they cease to exist), 
+but they may turn into (or get “replaced” by) a type of Monster.
+
+public class Monster extends Being
+A Monster is an actor that moves and turns. 
+It attacks and possibly kills nearby Human(s). 
+It can be killed by a Human (but not another monster).
+
+public class Zombie extends Moster
+A Zombie looks at a limited set of neighbors when it eats and moves. 
+It can move, and when it does so, it randomly moves to the right or to the 
+left if there is no neighbor. 
+If the Zombie doesn't move, it randomly turns left or right. 
+If there is a neighboring Human, the zombie chases the Human and either 
+1) the zombie gets killed 
+2) the Human gets killed or 
+3) the Human becomes (or is “replaced” by) a Zombie.
+
+public class Vampire extends Moster
+A Vampire looks at a more expansive set of neighbors when it “eats” and moves. 
+It constantly moves, and when it does so, it randomly turns/moves if there is 
+no neighbor. 
+If there is a neighboring Human, the vampire chases the Human and either 
+1) the vampire gets killed 
+2) the Human gets killed or 
+3) the Human becomes (or is “replaced” by) a Vampire.
+
+
 INPUT: 
 User should be able to
     -enter the type of actor in a text box (or for 5 extra credit points, 
@@ -69,8 +116,10 @@ TURN IN all materials in a 9x12 envelope:
 package monsterprogram;
 
 import info.gridworld.actor.ActorWorld;
+import info.gridworld.actor.Actor;
 import info.gridworld.actor.Rock;
 import info.gridworld.actor.Food;
+import info.gridworld.actor.being;
 import info.gridworld.actor.Human;
 import info.gridworld.actor.Vampire;
 import info.gridworld.actor.Zombie;
@@ -83,8 +132,10 @@ public class Monsterprogram
     {
         ActorWorld world = new ActorWorld();
         
+        world.add(new Actor());
         world.add(new Rock(Color.gray));
         world.add(new Food(Color.ORANGE));
+        world.add(new being(Color.ORANGE));
         world.add(new Human(Color.gray));
         world.add(new Vampire(Color.gray));
         world.add(new Zombie(Color.gray));
