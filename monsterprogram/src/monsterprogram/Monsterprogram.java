@@ -110,7 +110,7 @@ public class Monsterprogram
     {
         ActorWorld world = new ActorWorld();
                 
-        Human Taylor = new Human();
+        Human Taylor = new Human(Color.WHITE);
         
         world.add(new Location(5, 5), new Rock(Color.LIGHT_GRAY));
         world.add(new Location(4, 5), new Food(Color.BLACK));

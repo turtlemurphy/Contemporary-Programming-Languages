@@ -3,6 +3,7 @@ package info.gridworld.actor;
 import info.gridworld.grid.Grid;
 import info.gridworld.grid.Location;
 import java.awt.Color;
+import java.util.Random;
 
 //A being
 public class being extends Actor
@@ -49,8 +50,27 @@ public class being extends Actor
     
     //Turns the bug 45 degrees to the right without changing its location.
     public void turn()
-    {
-        setDirection(getDirection() + Location.HALF_RIGHT);
+    {   
+        //uses random to decide what direction the being will turn when encountered with an obstacle
+        Random randomGenerator = new Random();
+        int turn = randomGenerator.nextInt(2);
+        
+        int turnDirection = 0;
+               
+        if(turn == 0)
+        {
+            turnDirection = Location.RIGHT;
+        }
+        else if(turn == 1)
+        {
+            turnDirection = Location.LEFT;
+        }
+        else
+        {
+            turnDirection = Location.HALF_CIRCLE;
+        }
+        
+        setDirection(getDirection() + turnDirection);
     }
 
     //Moves the being forward
@@ -69,7 +89,7 @@ public class being extends Actor
         else
             removeSelfFromGrid();
     }
-
+    
     //Overrides the act method in the Actor class to do nothing.
     @Override
     public void act()

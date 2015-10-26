@@ -1,6 +1,7 @@
 package info.gridworld.actor;
 
 import java.awt.Color;
+import java.util.Random;
 
 //A Monster
 public class Monster extends being
@@ -24,6 +25,21 @@ public class Monster extends being
     @Override
     public void act()
     {
+        //turnRand is used to give the being a random chance to turn in a random direction even though the path may be unobstructed
+        Random randomGenerator = new Random();
+        int turnRand = randomGenerator.nextInt(1000);
         
+        if (turnRand > 700)
+        {
+            turn();
+        }
+        else if (canMove())
+        {
+            move();
+        }
+        else
+        {
+            turn();
+        }
     }
 }
