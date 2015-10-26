@@ -340,6 +340,7 @@ public class WorldFrame<T> extends JFrame
         mbar.add(menu = makeMenu("menu.file"));
         newGridMenu = makeMenu("menu.file.new");
         menu.add(newGridMenu);
+        
         menuItemsDisabledDuringRun.add(newGridMenu);
 
         menu.add(makeMenuItem("menu.file.quit", new ActionListener()

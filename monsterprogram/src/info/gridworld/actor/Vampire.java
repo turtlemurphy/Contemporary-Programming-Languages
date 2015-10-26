@@ -6,7 +6,7 @@ import java.util.Random;
 //A Vampire
 public class Vampire extends Monster
 {
-    private static final Color DEFAULT_COLOR = Color.BLACK;
+    private static final Color DEFAULT_COLOR = Color.RED;
 
     //Constructs a black vampire.
     public Vampire()
@@ -21,15 +21,16 @@ public class Vampire extends Monster
         setColor(vampireColor);
     }
 
-    //Overrides the act method in the Actor class to do nothing.
+    //Overrides the act method in the Actor class.
     @Override
     public void act()
     {
-        //turnRand is used to give the human a random chance to turn in a random direction even though the path may be unobstructed
+        //turnRand is used to give the being a random chance to turn in a random direction even though the path may be unobstructed
+        //Vamps are the fastest hunters, their random turn chance is 42.5%
         Random randomGenerator = new Random();
         int turnRand = randomGenerator.nextInt(1000);
         
-        if (turnRand > 700)
+        if (turnRand > 575)
         {
             turn();
         }

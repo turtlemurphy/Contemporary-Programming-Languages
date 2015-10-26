@@ -106,7 +106,6 @@ public class GridPanel extends JPanel implements Scrollable,
         g2.fillRect(insets.left, insets.top, numCols * (cellSize + 1) + 1, numRows
                 * (cellSize + 1) + 1);
 
-        drawWatermark(g2);
         drawGridlines(g2);
         drawOccupants(g2);
         drawCurrentLocation(g2);
@@ -218,42 +217,6 @@ public class GridPanel extends JPanel implements Scrollable,
             g2.drawRect(p.x - cellSize / 2 - 2, p.y - cellSize / 2 - 2,
                     cellSize + 3, cellSize + 3);
         }
-    }
-
-    /**
-     * Draws a watermark that shows the version number if it is < 1.0
-     * @param g2 the graphics context
-     */
-    private void drawWatermark(Graphics2D g2)
-    {
-        String versionId = resources.getString("version.id");
-        if ("1.00".compareTo(versionId) == 0) return; // TODO: Better mechanism
-
-        try
-        {
-            if ("hide".equals(System.getProperty("info.gridworld.gui.watermark")))
-                return;
-        }
-        catch (SecurityException ex)
-        {
-            // oh well...
-        }
-
-        g2 = (Graphics2D) g2.create();
-        g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
-                RenderingHints.VALUE_ANTIALIAS_ON);
-        Rectangle rect = getBounds();
-        g2.setPaint(new Color(0xE3, 0xD3, 0xD3));
-        final int WATERMARK_FONT_SIZE = 100;
-        g2.setFont(new Font("SansSerif", Font.BOLD, WATERMARK_FONT_SIZE));
-        FontRenderContext frc = g2.getFontRenderContext();
-        Rectangle2D bounds = g2.getFont().getStringBounds(versionId, frc);
-        float centerX = rect.x + rect.width / 2;
-        float centerY = rect.y + rect.height / 2;
-        float leftX = centerX - (float) bounds.getWidth() / 2;
-        LineMetrics lm = g2.getFont().getLineMetrics(versionId, frc);
-        float baselineY = centerY - lm.getHeight() / 2 + lm.getAscent();
-        g2.drawString(versionId, leftX, baselineY);
     }
 
     /**

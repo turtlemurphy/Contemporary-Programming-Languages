@@ -90,7 +90,7 @@ public class being extends Actor
             removeSelfFromGrid();
     }
     
-    //Overrides the act method in the Actor class to do nothing.
+    //Overrides the act method in the Actor class.
     @Override
     public void act()
     {

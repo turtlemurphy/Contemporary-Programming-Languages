@@ -13,109 +13,16 @@ Purpose:
 ----To use Random method; 
 ----To use TRUE 2-D arrays and array lists;
 
-Problem:
-----Write a program that: 
-    -prompts the user for one of these actors: Rock, Human, 
-        Zombie, or Vampire
-    -prompts for whether or not they want to use random values for the 
-        member data or enter the data
-    -displays a picture of the actor in the grid (Put several .gif files 
-        in project folder representing various actors.
-    -outputs the string representation of the actor
-    -moves the actor on the screen
-
-
-public class Actor implements IActor
-An Actor is an entity with an image and that can act. 
-
-public class Rock extends Actor
-A Rock is an actor that does nothing. 
-It is commonly used to block other actors from moving.
-
-public class Being extends Actor
-A Being is an actor that moves and turns and 
-defends itself. (It can have a “health” meter.)
-
-public class Human extends Being
-A Human is an actor that moves and turns and defends itself. 
-Comes in from an entrance point in a Grid and goes out one of the 
-known exit points. 
-A Human tries to look ahead and hide behind rocks, so they can’t be seen. 
-They can kill a monster, or be killed by a monster (they cease to exist), 
-but they may turn into (or get “replaced” by) a type of Monster.
-
-public class Monster extends Being
-A Monster is an actor that moves and turns. 
-It attacks and possibly kills nearby Human(s). 
-It can be killed by a Human (but not another monster).
-
-public class Zombie extends Moster
-A Zombie looks at a limited set of neighbors when it eats and moves. 
-It can move, and when it does so, it randomly moves to the right or to the 
-left if there is no neighbor. 
-If the Zombie doesn't move, it randomly turns left or right. 
-If there is a neighboring Human, the zombie chases the Human and either 
-1) the zombie gets killed 
-2) the Human gets killed or 
-3) the Human becomes a Zombie.
-
-public class Vampire extends Moster
-A Vampire looks at a more expansive set of neighbors when it “eats” and moves. 
-It constantly moves, and when it does so, it randomly turns/moves if there is 
-no neighbor. 
-If there is a neighboring Human, the vampire chases the Human and either 
-1) the vampire gets killed 
-2) the Human gets killed or 
-3) the Human becomes (or is “replaced” by) a Vampire.
-
-
-INPUT: 
-User should be able to
-    -enter the type of actor in a text box (or for 5 extra credit points, 
-        select a actor from a combo box - 
-        https://docs.oracle.com/javase/tutorial/uiswing/components/combobox.html
-    -indicate if they want to use random values for the member data or 
-        enter the member data
-    -enter the required data about actors
-
-OUTPUT: 
-Output is all done on a form. The form should display
-    -a picture of the actor
-    -the string representation of the actor
-    -an animation of the actor within the world
-
 Turned In:
 Source Code 
 Screen dumps 
+Partner Log
 App on storage media
 Envelope
 
-Applied Concepts:
-Rename form and controls
-Use GUI components
-Interface
-Use inheritance 
-Create library (dll)
-Use switch to instantiate objects
-Polymorphism to process objects
-Use Random class
-Use 2D arrays
-Use array lists
-
 Requirements:
-Instructions
-Allows user to enter data for placement of actor(s)
-Use random values for placement of actor(s)
-Allows any number of rocks 
-Allow any number of Monsters 
-Allows one Human
-Move Beings correctly
-Rotate Beings
-Actors behave as specified
 Starts over
 
-Extra Credit:
-Have several monsters “simultaneously” move (5)
 
 */
 package monsterprogram;
@@ -129,25 +36,159 @@ import info.gridworld.actor.Monster;
 import info.gridworld.actor.Vampire;
 import info.gridworld.actor.Zombie;
 import info.gridworld.grid.Location;
-import java.awt.Color;
+import javax.swing.JOptionPane;
 
 public class Monsterprogram 
 {
     public static void main(String[] args) 
     {
+        int userChoice = 0;
         ActorWorld world = new ActorWorld();
-                
-        Human MSU_Student = new Human(Color.WHITE);
         Exit HumansWin = new Exit();
+        JOptionPane Frame = new JOptionPane();
+                        
+        String MessageToTheUser = "Please choose. "
+                + "Type 0 for a Default instance of the game. "
+                + "Type 1 for a Custom instance of the game.";
         
-        world.add(new Location(5, 5), new Rock(Color.LIGHT_GRAY));
-        world.add(new Food(Color.WHITE));
-        world.add(MSU_Student);
-        world.add(new Monster());
-        world.add(new Vampire(Color.RED));
-        world.add(new Zombie(Color.GREEN));
+        //userChoice = Integer.parseInt(JOptionPane
+        //        .showInputDialog(MessageToTheUser));
+        
+        //Instantiates actors in 2 different ways, decided by the user
+        switch (userChoice)
+        {
+            //Custom Case
+            case 1:
+                int r;
+                int c;
+                int actorNum;
+                Location actorLoc;
+                
+                JOptionPane.showMessageDialog(Frame, "NOTE: When choosing a "
+                        + "starting position keep in mind that the maximum "
+                        + "coord value is 10");
+                
+                //Places a Human with a user decided Location
+                JOptionPane.showMessageDialog(Frame, "Enter the starting "
+                        + "position for the sole Human in the game");
+                r = Integer.parseInt(JOptionPane.showInputDialog("Enter the "
+                        + "Row Coord"));
+                c = Integer.parseInt(JOptionPane.showInputDialog("Enter the "
+                        + "Col Coord"));
+                actorLoc = new Location(r, c);
+                world.add(actorLoc, new Human());
+                             
+                //asks how many Rock(s) need to be created and give each a user 
+                //decided Location
+                actorNum = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                        + "the number of Rock(s)"));
+                for(int i = 0; i < actorNum; i++)
+                {
+                    r = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                            + "the Row Coord for Rock #" + (i+1)));
+                    c = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                            + "the Col Coord for Rock #" + (i+1)));
+                    actorLoc = new Location(r, c);
+                    world.add(actorLoc, new Rock());
+                }
+                
+                //asks how many Food(s) need to be created and give each a user 
+                //decided Location
+                actorNum = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                        + "the number of Food(s)"));
+                for(int i = 0; i < actorNum; i++)
+                {
+                    r = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                            + "the Row Coord for Food #" + (i+1)));
+                    c = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                            + "the Col Coord for Food #" + (i+1)));
+                    actorLoc = new Location(r, c);
+                    world.add(actorLoc, new Food());
+                }
+                
+                //asks how many Monster(s) need to be created and give each a 
+                //user decided Location
+                actorNum = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                        + "the number of Monster(s)"));
+                for(int i = 0; i < actorNum; i++)
+                {
+                    r = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                            + "the Row Coord for Monster #" + (i+1)));
+                    c = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                            + "the Col Coord for Monster #" + (i+1)));
+                    actorLoc = new Location(r, c);
+                    world.add(actorLoc, new Monster());
+                }
+                
+                //asks how many Vampire(s) need to be created and give each a 
+                //user decided Location
+                actorNum = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                        + "the number of Vampire(s)"));
+                for(int i = 0; i < actorNum; i++)
+                {
+                    r = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                            + "the Row Coord for Vampire #" + (i+1)));
+                    c = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                            + "the Col Coord for Vampire #" + (i+1)));
+                    actorLoc = new Location(r, c);
+                    world.add(actorLoc, new Vampire());
+                }
+                
+                //asks how many Zombie(s) need to be created and give each a 
+                //user decided Location
+                actorNum = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                        + "the number of Zombie(s)"));
+                for(int i = 0; i < actorNum; i++)
+                {
+                    r = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                            + "the Row Coord for Zombie #" + (i+1)));
+                    c = Integer.parseInt(JOptionPane.showInputDialog("Enter "
+                            + "the Col Coord for Zombie #" + (i+1)));
+                    actorLoc = new Location(r, c);
+                    world.add(actorLoc, new Zombie());
+                }
+                
+                break;
+            
+            //Base minimium case with every actor having a random 
+            //starting location
+            default:
+                world.add(new Rock());
+                world.add(new Food());
+                world.add(new Human());
+                world.add(new Monster());
+                world.add(new Vampire());
+                world.add(new Zombie());
+                break;
+        }
+        
+        //User has no control over exit, Exit is ramdomly placed on the board
         world.add(HumansWin);
         
+        //Diplays the grid with all of the actors
         world.show();
+        
+//Look ideas
+//
+
+
+
+//Endgame
+//find code for stop button
+//if human dies or exits execute below
+// if(//humans has reached the exit)
+// {
+// JOptionPane.showMessageDialog(Frame, "The Human has Won. VICTORY!");
+// System.exit(0);
+// }
+// else
+// {
+// JOptionPane.showMessageDialog(Frame, "The Human has died SADNESS!");
+// System.exit(0);
+// }
+        
+        
+        
+        
     }
 }

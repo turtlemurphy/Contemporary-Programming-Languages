@@ -6,7 +6,7 @@ import java.util.Random;
 //A Zombie
 public class Zombie extends Monster
 {
-    private static final Color DEFAULT_COLOR = Color.BLACK;
+    private static final Color DEFAULT_COLOR = Color.GREEN;
 
     //Constructs a black rock.
     public Zombie()
@@ -21,15 +21,16 @@ public class Zombie extends Monster
         setColor(zombieColor);
     }
 
-    //Overrides the act method in the Actor class to do nothing.
+    //Overrides the act method in the Actor class.
     @Override
     public void act()
     {
-        //turnRand is used to give the human a random chance to turn in a random direction even though the path may be unobstructed
+        //turnRand is used to give the being a random chance to turn in a random direction even though the path may be unobstructed
+        //Zombies are the worst hunters, their random turn chance is 75%
         Random randomGenerator = new Random();
         int turnRand = randomGenerator.nextInt(1000);
         
-        if (turnRand > 700)
+        if (turnRand > 250)
         {
             turn();
         }

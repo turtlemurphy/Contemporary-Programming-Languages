@@ -16,5 +16,10 @@ public class Exit extends Actor
         
     }
     
-    
+    //Overrides the act method in the Actor class.
+    @Override
+    public void act()
+    {
+        
+    }
 }

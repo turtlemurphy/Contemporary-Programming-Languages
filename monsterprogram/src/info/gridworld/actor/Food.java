@@ -5,7 +5,7 @@ import java.awt.Color;
 //A Food
 public class Food extends Actor
 {
-    private static final Color DEFAULT_COLOR = Color.BLACK;
+    private static final Color DEFAULT_COLOR = Color.WHITE;
 
     //Constructs a black rock.
     public Food()
@@ -20,7 +20,7 @@ public class Food extends Actor
         setColor(foodColor);
     }
 
-    //Overrides the act method in the Actor class to do nothing.
+    //Overrides the act method in the Actor class.
     @Override
     public void act()
     {
