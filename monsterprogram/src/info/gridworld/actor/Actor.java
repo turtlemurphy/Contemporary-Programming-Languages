@@ -139,7 +139,6 @@ public class Actor implements IActor
 
     //Creates a string that describes this actor.
     //@return a string with the location, direction, and color of this actor
-    @Override
     public String toString()
     {
         return getClass().getName() + "[location=" + location + ",direction=" + direction + ",color=" + color + "]";

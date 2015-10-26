@@ -65,13 +65,7 @@ import javax.swing.event.HyperlinkListener;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-/**
- * The WorldFrame displays a World and allows manipulation of its occupants.
- * <br />
- * This code is not tested on the AP CS A and AB exams. It contains GUI
- * implementation details that are not intended to be understood by AP CS
- * students.
- */
+//The WorldFrame displays a World and allows manipulation of its occupants.
 public class WorldFrame<T> extends JFrame
 {
     private GUIController<T> control;
@@ -87,10 +81,8 @@ public class WorldFrame<T> extends JFrame
 
     private static int count = 0;
 
-    /**
-     * Constructs a WorldFrame that displays the occupants of a world
-     * @param world the world to display
-     */
+    //Constructs a WorldFrame that displays the occupants of a world
+    //@param world the world to display
     public WorldFrame(World<T> world)
     {
         this.world = world;
@@ -216,20 +208,15 @@ public class WorldFrame<T> extends JFrame
         super.repaint();
     }
 
-    /**
-     * Gets the world that this frame displays
-     * @return the world
-     */
+    //Gets the world that this frame displays
+    //@return the world
     public World<T> getWorld()
     {
         return world;
     }
 
-    /**
-     * Sets a new grid for this world. Occupants are transferred from
-     * the old world to the new.
-     * @param newGrid the new grid
-     */
+    //Sets a new grid for this world. Occupants are transferred from the old world to the new.
+    //@param newGrid the new grid
     public void setGrid(Grid<T> newGrid)
     {
         Grid<T> oldGrid = world.getGrid();
@@ -248,12 +235,9 @@ public class WorldFrame<T> extends JFrame
         repaint();
     }
 
-    /**
-     * Displays an error message
-     * @param t the throwable that describes the error
-     * @param resource the resource whose .text/.title strings 
-     * should be used in the dialog
-     */
+    //Displays an error message
+    //@param t the throwable that describes the error
+    //@param resource the resource whose .text/.title strings should be used in the dialog
     public void showError(Throwable t, String resource)
     {
         String text;
@@ -286,7 +270,6 @@ public class WorldFrame<T> extends JFrame
     }
 
     // Creates the drop-down menus on the frame.
-
     private JMenu makeMenu(String resource)
     {
         JMenu menu = new JMenu();
@@ -301,8 +284,7 @@ public class WorldFrame<T> extends JFrame
         return item;
     }
 
-    private void configureMenuItem(JMenuItem item, String resource,
-            ActionListener listener)
+    private void configureMenuItem(JMenuItem item, String resource, ActionListener listener)
     {
         configureAbstractButton(item, resource);
         item.addActionListener(listener);
@@ -346,6 +328,7 @@ public class WorldFrame<T> extends JFrame
             button.setText(title);
     }
 
+    //Makes dropdown menus at the top of gridworld
     private void makeMenus()
     {
         JMenuBar mbar = new JMenuBar();
@@ -353,8 +336,8 @@ public class WorldFrame<T> extends JFrame
 
         menuItemsDisabledDuringRun = new ArrayList<JMenuItem>();
 
+        //World
         mbar.add(menu = makeMenu("menu.file"));
-
         newGridMenu = makeMenu("menu.file.new");
         menu.add(newGridMenu);
         menuItemsDisabledDuringRun.add(newGridMenu);
@@ -366,60 +349,9 @@ public class WorldFrame<T> extends JFrame
                 System.exit(0);
             }
         }));
-
+        
+        //Location
         mbar.add(menu = makeMenu("menu.view"));
-
-        menu.add(makeMenuItem("menu.view.up", new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                display.moveLocation(-1, 0);
-            }
-        }));
-        menu.add(makeMenuItem("menu.view.down", new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                display.moveLocation(1, 0);
-            }
-        }));
-        menu.add(makeMenuItem("menu.view.left", new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                display.moveLocation(0, -1);
-            }
-        }));
-        menu.add(makeMenuItem("menu.view.right", new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                display.moveLocation(0, 1);
-            }
-        }));
-
-        JMenuItem viewEditMenu;
-        menu.add(viewEditMenu = makeMenuItem("menu.view.edit",
-                new ActionListener()
-                {
-                    public void actionPerformed(ActionEvent e)
-                    {
-                        control.editLocation();
-                    }
-                }));
-        menuItemsDisabledDuringRun.add(viewEditMenu);
-
-        JMenuItem viewDeleteMenu;
-        menu.add(viewDeleteMenu = makeMenuItem("menu.view.delete",
-                new ActionListener()
-                {
-                    public void actionPerformed(ActionEvent e)
-                    {
-                        control.deleteLocation();
-                    }
-                }));
-        menuItemsDisabledDuringRun.add(viewDeleteMenu);
-
         menu.add(makeMenuItem("menu.view.zoomin", new ActionListener()
         {
             public void actionPerformed(ActionEvent e)
@@ -435,7 +367,8 @@ public class WorldFrame<T> extends JFrame
                 display.zoomOut();
             }
         }));
-
+        
+        //Help
         mbar.add(menu = makeMenu("menu.help"));
         menu.add(makeMenuItem("menu.help.about", new ActionListener()
         {
@@ -444,21 +377,7 @@ public class WorldFrame<T> extends JFrame
                 showAboutPanel();
             }
         }));
-        menu.add(makeMenuItem("menu.help.help", new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                showHelp();
-            }
-        }));
-        menu.add(makeMenuItem("menu.help.license", new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                showLicense();
-            }
-        }));
-
+        
         setRunMenuItemsEnabled(true);
         setJMenuBar(mbar);
     }
@@ -470,25 +389,18 @@ public class WorldFrame<T> extends JFrame
         maker.addConstructors(newGridMenu, gridClasses);
     }
 
-    /**
-     * Sets the enabled status of those menu items that are disabled when
-     * running.
-     * @param enable true to enable the menus
-     */
+    //Sets the enabled status of those menu items that are disabled when running.
+    //@param enable true to enable the menus
     public void setRunMenuItemsEnabled(boolean enable)
     {
         for (JMenuItem item : menuItemsDisabledDuringRun)
             item.setEnabled(enable);
     }
 
-    /**
-     * Brings up a simple dialog with some general information.
-     */
+    //Brings up a simple dialog with some general information.
     private void showAboutPanel()
     {
-        String html = MessageFormat.format(resources
-                .getString("dialog.about.text"), new Object[]
-            { resources.getString("version.id") });
+        String html = MessageFormat.format(resources.getString("dialog.about.text"), new Object[]{ resources.getString("version.id") });
         String[] props = { "java.version", "java.vendor", "java.home", "os.name", "os.arch", "os.version", "user.name", "user.home", "user.dir" };
         html += "<table border='1'>";
         for (String prop : props)
@@ -505,86 +417,12 @@ public class WorldFrame<T> extends JFrame
         }
         html += "</table>";
         html = "<html>" + html + "</html>";
-        JOptionPane.showMessageDialog(this, new JLabel(html), resources
-                .getString("dialog.about.title"),
-                JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(this, new JLabel(html), resources.getString("dialog.about.title"), JOptionPane.INFORMATION_MESSAGE);
     }
 
-    /**
-     * Brings up a window with a scrolling text pane that display the help
-     * information.
-     */
-    private void showHelp()
-    {
-        JDialog dialog = new JDialog(this, resources
-                .getString("dialog.help.title"));
-        final JEditorPane helpText = new JEditorPane();
-        try
-        {
-            URL url = getClass().getResource("GridWorldHelp.html");
-
-            helpText.setPage(url);
-        }
-        catch (Exception e)
-        {
-            helpText.setText(resources.getString("dialog.help.error"));
-        }
-        helpText.setEditable(false);
-        helpText.addHyperlinkListener(new HyperlinkListener()
-        {
-            public void hyperlinkUpdate(HyperlinkEvent ev)
-            {
-                if (ev.getEventType() == HyperlinkEvent.EventType.ACTIVATED)
-                    try
-                    {
-                        helpText.setPage(ev.getURL());
-                    }
-                    catch (Exception ex)
-                    {
-                    }
-            }
-        });
-        JScrollPane sp = new JScrollPane(helpText);
-        sp.setPreferredSize(new Dimension(650, 500));
-        dialog.getContentPane().add(sp);
-        dialog.setLocation(getX() + getWidth() - 200, getY() + 50);
-        dialog.pack();
-        dialog.setVisible(true);
-    }
-
-    /**
-     * Brings up a dialog that displays the license.
-     */
-    private void showLicense()
-    {
-        JDialog dialog = new JDialog(this, resources
-                .getString("dialog.license.title"));
-        final JEditorPane text = new JEditorPane();
-        try
-        {
-            URL url = getClass().getResource("GNULicense.txt");
-
-            text.setPage(url);
-        }
-        catch (Exception e)
-        {
-            text.setText(resources.getString("dialog.license.error"));
-        }
-        text.setEditable(false);
-        JScrollPane sp = new JScrollPane(text);
-        sp.setPreferredSize(new Dimension(650, 500));
-        dialog.getContentPane().add(sp);
-        dialog.setLocation(getX() + getWidth() - 200, getY() + 50);
-        dialog.pack();
-        dialog.setVisible(true);
-    }
-
-    /**
-     * Nested class that is registered as the handler for exceptions on the
-     * Swing event thread. The handler will put up an alert panel and dump the
-     * stack trace to the console.
-     */
-    
+    //Nested class that is registered as the handler for exceptions on the 
+    //Swing event thread. The handler will put up an alert panel and dump the 
+    //stack trace to the console.    
     public class GUIExceptionHandler
     {
         public void handle(Throwable e)

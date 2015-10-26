@@ -84,19 +84,46 @@ Output is all done on a form. The form should display
     -the string representation of the actor
     -an animation of the actor within the world
 
-TURN IN all materials in a 9x12 envelope:
-    -1) Print out of documented Source code
-    -2) Screen dump(s) of image(s) when running
-    -3) Application on some storage media.
+Turned In:
+Source Code 
+Screen dumps 
+App on storage media
+Envelope
+
+Applied Concepts:
+Rename form and controls
+Use GUI components
+Interface
+Use inheritance 
+Create library (dll)
+Use switch to instantiate objects
+Polymorphism to process objects
+Use Random class
+Use 2D arrays
+Use array lists
+
+Requirements:
+Instructions
+Allows user to enter data for placement of actor(s)
+Use random values for placement of actor(s)
+Allows any number of rocks 
+Allow any number of Monsters 
+Allows one Human
+Move Beings correctly
+Rotate Beings
+Actors behave as specified
+Starts over
+
+Extra Credit:
+Have several monsters “simultaneously” move (5)
 
 */
 package monsterprogram;
 
 import info.gridworld.actor.ActorWorld;
-import info.gridworld.actor.Actor;
+import info.gridworld.actor.Exit;
 import info.gridworld.actor.Rock;
 import info.gridworld.actor.Food;
-import info.gridworld.actor.being;
 import info.gridworld.actor.Human;
 import info.gridworld.actor.Monster;
 import info.gridworld.actor.Vampire;
@@ -110,15 +137,16 @@ public class Monsterprogram
     {
         ActorWorld world = new ActorWorld();
                 
-        Human Taylor = new Human(Color.WHITE);
+        Human MSU_Student = new Human(Color.WHITE);
+        Exit HumansWin = new Exit();
         
         world.add(new Location(5, 5), new Rock(Color.LIGHT_GRAY));
-        world.add(new Location(4, 5), new Food(Color.BLACK));
-        world.add(new Location(2, 2), new being(Color.DARK_GRAY));
-        world.add(Taylor);
-        world.add(new Monster(Color.BLACK));
-        world.add(new Vampire(Color.WHITE));
-        world.add(new Zombie(Color.MAGENTA));
+        world.add(new Food(Color.WHITE));
+        world.add(MSU_Student);
+        world.add(new Monster());
+        world.add(new Vampire(Color.RED));
+        world.add(new Zombie(Color.GREEN));
+        world.add(HumansWin);
         
         world.show();
     }
