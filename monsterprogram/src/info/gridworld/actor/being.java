@@ -3,32 +3,30 @@ package info.gridworld.actor;
 import info.gridworld.grid.Grid;
 import info.gridworld.grid.Location;
 import java.awt.Color;
+import java.util.ArrayList;
 import java.util.Random;
 
-//A being
+//A being is a subclass of Actor but a parent class to 
+//Humans/Monsters/Vamps/Zombies.
 public class being extends Actor
 {
     private static final Color DEFAULT_COLOR = Color.BLACK;
     
-    public int steps;
-    public int sideLength;
-
-    //Constructs a black being.
+    //Constructs a DEFAULT being.
     public being()
     {
         setColor(DEFAULT_COLOR);
     }
 
     //Constructs a being of a given color.
-    //@param beingColor the color of this rock
+    //@param beingColor the color of this being
     public being(Color beingColor)
     {
         setColor(beingColor);
     }
            
-    //Tests whether this bug can move forward into a location that is 
-    //empty or contains a flower.
-    //@return true if this bug can move.
+    //Tests whether this bug can move forward into a location that is empty
+    //@return true if this being can move.
     public boolean canMove()
     {
         Grid<Actor> gr = getGrid();
@@ -44,14 +42,15 @@ public class being extends Actor
         
         Actor neighbor = gr.get(next);
         
-         return (neighbor == null);
+        return (neighbor == null);
         // ok to move into empty location
     }
     
-    //Turns the bug 45 degrees to the right without changing its location.
+    //Turns the being 90 degrees to the right without changing its location.
     public void turn()
     {   
-        //uses random to decide what direction the being will turn when encountered with an obstacle
+        //uses random to decide what direction the being will turn when 
+        //encountered with an obstacle
         Random randomGenerator = new Random();
         int turn = randomGenerator.nextInt(2);
         
@@ -88,6 +87,21 @@ public class being extends Actor
             moveTo(next);
         else
             removeSelfFromGrid();
+    }
+    
+    //Gets the actors for processing.
+    //Postcondition: The state of all actors is unchanged.
+    //@return a list of actors that this critter wishes to process.
+    public ArrayList<Actor> getActors()
+    {
+        return getGrid().getNeighbors(getLocation());
+    }
+    
+    //Processes the elements of actors. Override this method in subclasses to 
+    //process actors in a different way.
+    public void processActors(ArrayList<Actor> actors)
+    {
+    
     }
     
     //Overrides the act method in the Actor class.

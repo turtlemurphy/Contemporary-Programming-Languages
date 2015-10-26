@@ -2,16 +2,10 @@
 // Name: Taylor Murphy and Shingai Mapuvire
 // Class : CMPS 4883 Advanced Programing Techniques
 // Date : 16 October 2015
-// Program 3 - Monster World
+// Program 5 - Monster Program
 ////////////////////////////////////////////////////
 /*
-Purpose:
-----To design and implement an interface; 
-----To instantiate objects of classes in an inheritance hierarchy and 
-        polymorphically output each object's attributes; 
-----To use a variety of GUI components, including a 2-D grid of picture boxes; 
-----To use Random method; 
-----To use TRUE 2-D arrays and array lists;
+Program 5 - Monster Program
 
 Turned In:
 Source Code 
@@ -19,10 +13,6 @@ Screen dumps
 Partner Log
 App on storage media
 Envelope
-
-Requirements:
-Starts over
-
 
 */
 package monsterprogram;
@@ -42,19 +32,17 @@ public class Monsterprogram
 {
     public static void main(String[] args) 
     {
-        int userChoice = 0;
-        ActorWorld world = new ActorWorld();
-        Exit HumansWin = new Exit();
+        int userChoice;
         JOptionPane Frame = new JOptionPane();
                         
         String MessageToTheUser = "Please choose. "
                 + "Type 0 for a Default instance of the game. "
                 + "Type 1 for a Custom instance of the game.";
         
-        //userChoice = Integer.parseInt(JOptionPane
-        //        .showInputDialog(MessageToTheUser));
+        userChoice = Integer.parseInt(JOptionPane
+                .showInputDialog(MessageToTheUser));
         
-        //Instantiates actors in 2 different ways, decided by the user
+        //Instantiates actors in 2 different ways, decided by userChoice
         switch (userChoice)
         {
             //Custom Case
@@ -63,6 +51,8 @@ public class Monsterprogram
                 int c;
                 int actorNum;
                 Location actorLoc;
+                ActorWorld world = new ActorWorld();
+                Exit HumansWin = new Exit();
                 
                 JOptionPane.showMessageDialog(Frame, "NOTE: When choosing a "
                         + "starting position keep in mind that the maximum "
@@ -148,47 +138,37 @@ public class Monsterprogram
                     world.add(actorLoc, new Zombie());
                 }
                 
+                //User has no control over exit, Exit is ramdomly placed on 
+                //the board
+                world.add(HumansWin);
+                
+                //Diplays the grid with all of the actors
+                world.show();
+                
                 break;
             
-            //Base minimium case with every actor having a random 
+            //Base/Minimium case with every actor having a random 
             //starting location
             default:
+                
+                world = new ActorWorld();
+                HumansWin = new Exit();
+                
                 world.add(new Rock());
                 world.add(new Food());
                 world.add(new Human());
                 world.add(new Monster());
                 world.add(new Vampire());
                 world.add(new Zombie());
+                
+                //User has no control over exit, Exit is ramdomly placed on 
+                //the board
+                world.add(HumansWin);
+                
+                //Diplays the grid with all of the actors
+                world.show();
+                
                 break;
         }
-        
-        //User has no control over exit, Exit is ramdomly placed on the board
-        world.add(HumansWin);
-        
-        //Diplays the grid with all of the actors
-        world.show();
-        
-//Look ideas
-//
-
-
-
-//Endgame
-//find code for stop button
-//if human dies or exits execute below
-// if(//humans has reached the exit)
-// {
-// JOptionPane.showMessageDialog(Frame, "The Human has Won. VICTORY!");
-// System.exit(0);
-// }
-// else
-// {
-// JOptionPane.showMessageDialog(Frame, "The Human has died SADNESS!");
-// System.exit(0);
-// }
-        
-        
-        
-        
     }
 }

@@ -4,6 +4,7 @@ import info.gridworld.grid.Grid;
 import info.gridworld.grid.Location;
 import java.awt.Color;
 
+//Interface IActor, Implemented by Actor.java
 public interface IActor 
 {
     Color getColor();

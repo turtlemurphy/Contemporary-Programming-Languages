@@ -2,12 +2,13 @@ package info.gridworld.actor;
 
 import java.awt.Color;
 
-//A Food
+//A Food is a subclass of Actor, A Food object serves to give the human more 
+//health when it is encountered by the human 
 public class Food extends Actor
 {
     private static final Color DEFAULT_COLOR = Color.WHITE;
 
-    //Constructs a black rock.
+    //Constructs a DEFAULT Food.
     public Food()
     {
         setColor(DEFAULT_COLOR);

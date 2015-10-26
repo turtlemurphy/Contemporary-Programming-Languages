@@ -7,8 +7,8 @@ import java.awt.Color;
 //An Actor is an entity with a color and direction that can act.
 public class Actor implements IActor
 {
-    private Grid<Actor> grid;
-    private Location location;
+    public Grid<Actor> grid;
+    public Location location;
     private int direction;
     private Color color;
 
@@ -43,7 +43,8 @@ public class Actor implements IActor
     }
 
     //Sets the current direction of this actor.
-    //@param newDirection the new direction. The direction of this actor is set to the angle between 0 and 359 degrees that is equivalent to newDirection.
+    //@param newDirection the new direction. The direction of this actor is set 
+    //to the angle between 0 and 359 degrees that is equivalent to newDirection.
     public void setDirection(int newDirection)
     {
         direction = newDirection % Location.FULL_CIRCLE;
@@ -53,20 +54,23 @@ public class Actor implements IActor
     }
 
     //Gets the grid in which this actor is located.
-    //@return the grid of this actor, or null if this actor is not contained in a grid
+    //@return the grid of this actor, or null if this actor is not contained 
+    //in a grid
     public Grid<Actor> getGrid()
     {
         return grid;
     }
 
     //Gets the location of this actor.
-    //@return the location of this actor, or null if this actor is not contained in a grid
+    //@return the location of this actor, or null if this actor is not 
+    //contained in a grid
     public Location getLocation()
     {
         return location;
     }
 
-    //Puts this actor into a grid. If there is another actor at the given location, it is removed.
+    //Puts this actor into a grid. If there is another actor at the given 
+    //location, it is removed.
     //Precondition: 
     //(1) This actor is not contained in a grid 
     //(2) loc is valid in gr
@@ -75,7 +79,8 @@ public class Actor implements IActor
     public void putSelfInGrid(Grid<Actor> gr, Location loc)
     {
         if (grid != null)
-            throw new IllegalStateException("This actor is already contained in a grid.");
+            throw new IllegalStateException("This actor is already contained "
+                    + "in a grid.");
 
         Actor actor = gr.get(loc);
         
@@ -92,17 +97,20 @@ public class Actor implements IActor
     public void removeSelfFromGrid()
     {
         if (grid == null)
-            throw new IllegalStateException("This actor is not contained in a grid.");
+            throw new IllegalStateException("This actor is not contained "
+                    + "in a grid.");
         
         if (grid.get(location) != this)
-            throw new IllegalStateException("The grid contains a different actor at location " + location + ".");
+            throw new IllegalStateException("The grid contains a different "
+                    + "actor at location " + location + ".");
 
         grid.remove(location);
         grid = null;
         location = null;
     }
 
-    //Moves this actor to a new location. If there is another actor at the given location, it is removed.
+    //Moves this actor to a new location. If there is another actor at the 
+    //given location, it is removed.
     //Precondition: 
     //(1) This actor is contained in a grid 
     //(2) newLocation is valid in the grid of this actor
@@ -113,10 +121,12 @@ public class Actor implements IActor
             throw new IllegalStateException("This actor is not in a grid.");
         
         if (grid.get(location) != this)
-            throw new IllegalStateException("The grid contains a different actor at location " + location + ".");
+            throw new IllegalStateException("The grid contains a different "
+                    + "actor at location " + location + ".");
         
         if (!grid.isValid(newLocation))
-            throw new IllegalArgumentException("Location " + newLocation + " is not valid.");
+            throw new IllegalArgumentException("Location " + newLocation + 
+                    " is not valid.");
 
         if (newLocation.equals(location))
             return;
@@ -131,7 +141,8 @@ public class Actor implements IActor
         grid.put(location, this);
     }
 
-    //Reverses the direction of this actor. Override this method in subclasses of Actor to define types of actors with different behavior
+    //Reverses the direction of this actor. Override this method in subclasses 
+    //of Actor to define types of actors with different behavior
     public void act()
     {
         setDirection(getDirection() + Location.HALF_CIRCLE);
@@ -141,6 +152,7 @@ public class Actor implements IActor
     //@return a string with the location, direction, and color of this actor
     public String toString()
     {
-        return getClass().getName() + "[location=" + location + ",direction=" + direction + ",color=" + color + "]";
+        return getClass().getName() + "[location=" + location + ",direction=" 
+                + direction + ",color=" + color + "]";
     }
 }

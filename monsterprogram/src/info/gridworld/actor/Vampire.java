@@ -3,12 +3,12 @@ package info.gridworld.actor;
 import java.awt.Color;
 import java.util.Random;
 
-//A Vampire
+//A Vampire is a subclass of Monster 
 public class Vampire extends Monster
 {
     private static final Color DEFAULT_COLOR = Color.RED;
 
-    //Constructs a black vampire.
+    //Constructs a DEFAULT vampire.
     public Vampire()
     {
         setColor(DEFAULT_COLOR);
@@ -25,7 +25,8 @@ public class Vampire extends Monster
     @Override
     public void act()
     {
-        //turnRand is used to give the being a random chance to turn in a random direction even though the path may be unobstructed
+        //turnRand is used to give the being a random chance to turn in a 
+        //random direction even though the path may be unobstructed
         //Vamps are the fastest hunters, their random turn chance is 42.5%
         Random randomGenerator = new Random();
         int turnRand = randomGenerator.nextInt(1000);
